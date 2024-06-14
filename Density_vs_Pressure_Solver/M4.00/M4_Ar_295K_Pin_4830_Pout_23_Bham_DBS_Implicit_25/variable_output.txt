@@ -1,0 +1,21 @@
+Double check these conditions are correct:
+
+Number of CPU Cores= 40
+Name of Solution Folder: M4_N2_295K_Pin_4830_Pout_23_Bham_DBS_Implicit_25
+Nozzle Length= 88.10 mm
+Nozzle Radius= 16.54 mm
+
+Inlet Temp= 295.00 K
+Outlet Temp= 295.00 K
+Inlet Pressure= 4830.00 Pa
+Outlet Pressure= 23.30 Pa
+Pressure Ratio (Pin/Pout)= 207.30
+Bath Gas= 2       Nitrogen = 0, Helium - 1, Argon = 2 
+
+Reactor Length= 1000.00 mm
+Reactor Radius= 198.20 mm
+Reservoir Length= 23.00 mm
+Reservoir Radius= 18.50 mm
+Outlet Diameter= 150.00 mm
+Outlet Position= 875.00 mm
+

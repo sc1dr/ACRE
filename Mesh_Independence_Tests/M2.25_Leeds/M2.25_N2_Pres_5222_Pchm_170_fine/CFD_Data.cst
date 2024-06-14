@@ -1,0 +1,1359 @@
+
+LINE: line_0 03
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.03 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.03 [m], 0 [m]
+END
+
+LINE: line_0 0298
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0298 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0298 [m], 0 [m]
+END
+
+LINE: line_0 0296
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0296 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0296 [m], 0 [m]
+END
+
+LINE: line_0 0294
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0294 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0294 [m], 0 [m]
+END
+
+LINE: line_0 0292
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0292 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0292 [m], 0 [m]
+END
+
+LINE: line_0 029
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.029 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.029 [m], 0 [m]
+END
+
+LINE: line_0 0288
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0288 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0288 [m], 0 [m]
+END
+
+LINE: line_0 0286
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0286 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0286 [m], 0 [m]
+END
+
+LINE: line_0 0284
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0284 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0284 [m], 0 [m]
+END
+
+LINE: line_0 0282
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0282 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0282 [m], 0 [m]
+END
+
+LINE: line_0 028
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.028 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.028 [m], 0 [m]
+END
+
+LINE: line_0 0278
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0278 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0278 [m], 0 [m]
+END
+
+LINE: line_0 0276
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0276 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0276 [m], 0 [m]
+END
+
+LINE: line_0 0274
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0274 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0274 [m], 0 [m]
+END
+
+LINE: line_0 0272
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0272 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0272 [m], 0 [m]
+END
+
+LINE: line_0 027
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.027 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.027 [m], 0 [m]
+END
+
+LINE: line_0 0268
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0268 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0268 [m], 0 [m]
+END
+
+LINE: line_0 0266
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0266 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0266 [m], 0 [m]
+END
+
+LINE: line_0 0264
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0264 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0264 [m], 0 [m]
+END
+
+LINE: line_0 0262
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0262 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0262 [m], 0 [m]
+END
+
+LINE: line_0 026
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.026 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.026 [m], 0 [m]
+END
+
+LINE: line_0 0258
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0258 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0258 [m], 0 [m]
+END
+
+LINE: line_0 0256
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0256 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0256 [m], 0 [m]
+END
+
+LINE: line_0 0254
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0254 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0254 [m], 0 [m]
+END
+
+LINE: line_0 0252
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0252 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0252 [m], 0 [m]
+END
+
+LINE: line_0 025
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.025 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.025 [m], 0 [m]
+END
+
+LINE: line_0 0248
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0248 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0248 [m], 0 [m]
+END
+
+LINE: line_0 0246
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0246 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0246 [m], 0 [m]
+END
+
+LINE: line_0 0244
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0244 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0244 [m], 0 [m]
+END
+
+LINE: line_0 0242
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0242 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0242 [m], 0 [m]
+END
+
+LINE: line_0 024
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.024 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.024 [m], 0 [m]
+END
+
+LINE: line_0 0238
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0238 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0238 [m], 0 [m]
+END
+
+LINE: line_0 0236
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0236 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0236 [m], 0 [m]
+END
+
+LINE: line_0 0234
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0234 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0234 [m], 0 [m]
+END
+
+LINE: line_0 0232
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0232 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0232 [m], 0 [m]
+END
+
+LINE: line_0 023
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.023 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.023 [m], 0 [m]
+END
+
+LINE: line_0 0228
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0228 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0228 [m], 0 [m]
+END
+
+LINE: line_0 0226
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0226 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0226 [m], 0 [m]
+END
+
+LINE: line_0 0224
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0224 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0224 [m], 0 [m]
+END
+
+LINE: line_0 0222
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0222 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0222 [m], 0 [m]
+END
+
+LINE: line_0 022
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.022 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.022 [m], 0 [m]
+END
+
+LINE: line_0 0218
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0218 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0218 [m], 0 [m]
+END
+
+LINE: line_0 0216
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0216 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0216 [m], 0 [m]
+END
+
+LINE: line_0 0214
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0214 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0214 [m], 0 [m]
+END
+
+LINE: line_0 0212
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0212 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0212 [m], 0 [m]
+END
+
+LINE: line_0 021
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.021 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.021 [m], 0 [m]
+END
+
+LINE: line_0 0208
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0208 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0208 [m], 0 [m]
+END
+
+LINE: line_0 0206
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0206 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0206 [m], 0 [m]
+END
+
+LINE: line_0 0204
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0204 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0204 [m], 0 [m]
+END
+
+LINE: line_0 0202
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0202 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0202 [m], 0 [m]
+END
+
+LINE: line_0 02
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.02 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.02 [m], 0 [m]
+END
+
+LINE: line_0 0198
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0198 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0198 [m], 0 [m]
+END
+
+LINE: line_0 0196
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0196 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0196 [m], 0 [m]
+END
+
+LINE: line_0 0194
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0194 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0194 [m], 0 [m]
+END
+
+LINE: line_0 0192
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0192 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0192 [m], 0 [m]
+END
+
+LINE: line_0 019
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.019 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.019 [m], 0 [m]
+END
+
+LINE: line_0 0188
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0188 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0188 [m], 0 [m]
+END
+
+LINE: line_0 0186
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0186 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0186 [m], 0 [m]
+END
+
+LINE: line_0 0184
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0184 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0184 [m], 0 [m]
+END
+
+LINE: line_0 0182
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0182 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0182 [m], 0 [m]
+END
+
+LINE: line_0 018
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.018 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.018 [m], 0 [m]
+END
+
+LINE: line_0 0178
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0178 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0178 [m], 0 [m]
+END
+
+LINE: line_0 0176
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0176 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0176 [m], 0 [m]
+END
+
+LINE: line_0 0174
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0174 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0174 [m], 0 [m]
+END
+
+LINE: line_0 0172
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0172 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0172 [m], 0 [m]
+END
+
+LINE: line_0 017
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.017 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.017 [m], 0 [m]
+END
+
+LINE: line_0 0168
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0168 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0168 [m], 0 [m]
+END
+
+LINE: line_0 0166
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0166 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0166 [m], 0 [m]
+END
+
+LINE: line_0 0164
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0164 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0164 [m], 0 [m]
+END
+
+LINE: line_0 0162
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0162 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0162 [m], 0 [m]
+END
+
+LINE: line_0 016
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.016 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.016 [m], 0 [m]
+END
+
+LINE: line_0 0158
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0158 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0158 [m], 0 [m]
+END
+
+LINE: line_0 0156
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0156 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0156 [m], 0 [m]
+END
+
+LINE: line_0 0154
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0154 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0154 [m], 0 [m]
+END
+
+LINE: line_0 0152
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0152 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0152 [m], 0 [m]
+END
+
+LINE: line_0 015
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.015 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.015 [m], 0 [m]
+END
+
+LINE: line_0 0148
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0148 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0148 [m], 0 [m]
+END
+
+LINE: line_0 0146
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0146 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0146 [m], 0 [m]
+END
+
+LINE: line_0 0144
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0144 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0144 [m], 0 [m]
+END
+
+LINE: line_0 0142
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0142 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0142 [m], 0 [m]
+END
+
+LINE: line_0 014
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.014 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.014 [m], 0 [m]
+END
+
+LINE: line_0 0138
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0138 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0138 [m], 0 [m]
+END
+
+LINE: line_0 0136
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0136 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0136 [m], 0 [m]
+END
+
+LINE: line_0 0134
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0134 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0134 [m], 0 [m]
+END
+
+LINE: line_0 0132
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0132 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0132 [m], 0 [m]
+END
+
+LINE: line_0 013
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.013 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.013 [m], 0 [m]
+END
+
+LINE: line_0 0128
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0128 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0128 [m], 0 [m]
+END
+
+LINE: line_0 0126
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0126 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0126 [m], 0 [m]
+END
+
+LINE: line_0 0124
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0124 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0124 [m], 0 [m]
+END
+
+LINE: line_0 0122
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0122 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0122 [m], 0 [m]
+END
+
+LINE: line_0 012
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.012 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.012 [m], 0 [m]
+END
+
+LINE: line_0 0118
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0118 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0118 [m], 0 [m]
+END
+
+LINE: line_0 0116
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0116 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0116 [m], 0 [m]
+END
+
+LINE: line_0 0114
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0114 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0114 [m], 0 [m]
+END
+
+LINE: line_0 0112
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0112 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0112 [m], 0 [m]
+END
+
+LINE: line_0 011
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.011 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.011 [m], 0 [m]
+END
+
+LINE: line_0 0108
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0108 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0108 [m], 0 [m]
+END
+
+LINE: line_0 0106
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0106 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0106 [m], 0 [m]
+END
+
+LINE: line_0 0104
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0104 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0104 [m], 0 [m]
+END
+
+LINE: line_0 0102
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0102 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0102 [m], 0 [m]
+END
+
+LINE: line_0 01
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.01 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.01 [m], 0 [m]
+END
+
+LINE: line_0 0098
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0098 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0098 [m], 0 [m]
+END
+
+LINE: line_0 0096
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0096 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0096 [m], 0 [m]
+END
+
+LINE: line_0 0094
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0094 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0094 [m], 0 [m]
+END
+
+LINE: line_0 0092
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0092 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0092 [m], 0 [m]
+END
+
+LINE: line_0 009
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.009 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.009 [m], 0 [m]
+END
+
+LINE: line_0 0088
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0088 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0088 [m], 0 [m]
+END
+
+LINE: line_0 0086
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0086 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0086 [m], 0 [m]
+END
+
+LINE: line_0 0084
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0084 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0084 [m], 0 [m]
+END
+
+LINE: line_0 0082
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0082 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0082 [m], 0 [m]
+END
+
+LINE: line_0 008
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.008 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.008 [m], 0 [m]
+END
+
+LINE: line_0 0078
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0078 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0078 [m], 0 [m]
+END
+
+LINE: line_0 0076
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0076 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0076 [m], 0 [m]
+END
+
+LINE: line_0 0074
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0074 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0074 [m], 0 [m]
+END
+
+LINE: line_0 0072
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0072 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0072 [m], 0 [m]
+END
+
+LINE: line_0 007
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.007 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.007 [m], 0 [m]
+END
+
+LINE: line_0 0068
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0068 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0068 [m], 0 [m]
+END
+
+LINE: line_0 0066
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0066 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0066 [m], 0 [m]
+END
+
+LINE: line_0 0064
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0064 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0064 [m], 0 [m]
+END
+
+LINE: line_0 0062
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0062 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0062 [m], 0 [m]
+END
+
+LINE: line_0 006
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.006 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.006 [m], 0 [m]
+END
+
+LINE: line_0 0058
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0058 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0058 [m], 0 [m]
+END
+
+LINE: line_0 0056
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0056 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0056 [m], 0 [m]
+END
+
+LINE: line_0 0054
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0054 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0054 [m], 0 [m]
+END
+
+LINE: line_0 0052
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0052 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0052 [m], 0 [m]
+END
+
+LINE: line_0 005
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.005 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.005 [m], 0 [m]
+END
+
+LINE: line_0 0048
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0048 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0048 [m], 0 [m]
+END
+
+LINE: line_0 0046
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0046 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0046 [m], 0 [m]
+END
+
+LINE: line_0 0044
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0044 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0044 [m], 0 [m]
+END
+
+LINE: line_0 0042
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0042 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0042 [m], 0 [m]
+END
+
+LINE: line_0 004
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.004 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.004 [m], 0 [m]
+END
+
+LINE: line_0 0038
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0038 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0038 [m], 0 [m]
+END
+
+LINE: line_0 0036
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0036 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0036 [m], 0 [m]
+END
+
+LINE: line_0 0034
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0034 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0034 [m], 0 [m]
+END
+
+LINE: line_0 0032
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0032 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0032 [m], 0 [m]
+END
+
+LINE: line_0 003
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.003 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.003 [m], 0 [m]
+END
+
+LINE: line_0 0028
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0028 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0028 [m], 0 [m]
+END
+
+LINE: line_0 0026
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0026 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0026 [m], 0 [m]
+END
+
+LINE: line_0 0024
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0024 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0024 [m], 0 [m]
+END
+
+LINE: line_0 0022
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0022 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0022 [m], 0 [m]
+END
+
+LINE: line_0 002
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.002 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.002 [m], 0 [m]
+END
+
+LINE: line_0 0018
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0018 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0018 [m], 0 [m]
+END
+
+LINE: line_0 0016
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0016 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0016 [m], 0 [m]
+END
+
+LINE: line_0 0014
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0014 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0014 [m], 0 [m]
+END
+
+LINE: line_0 0012
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0012 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0012 [m], 0 [m]
+END
+
+LINE: line_0 001
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.001 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.001 [m], 0 [m]
+END
+
+LINE: line_0 0008
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0008 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0008 [m], 0 [m]
+END
+
+LINE: line_0 0006
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0006 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0006 [m], 0 [m]
+END
+
+LINE: line_0 0004
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0004 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0004 [m], 0 [m]
+END
+
+LINE: line_0 0002
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0.0002 [m], 0 [m]
+  Point 2 = 0.774 [m], 0.0002 [m], 0 [m]
+END
+
+LINE: line_0
+  Domain List = /DOMAIN GROUP:All Domains
+  Line Type = Cut
+  Line Width = 2
+  Option = Two Points
+  Point 1 = 0.041621 [m], 0 [m], 0 [m]
+  Point 2 = 0.774 [m], 0 [m], 0 [m]
+END

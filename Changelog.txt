@@ -1,0 +1,34 @@
+BRIEF CHANGELOG FOR THE ACRE FRAMEWORK
+
+V1.0 Deployed In October 2023/
+
+V1.1 - 24/10/2023
+Nozzle_Characterisation_CFD.m script was altered to account for the fact the number of nozzle points can change in the XY file.
+It was originally kept the same for all cases with respect to the benchmark although was causing issues with generating the mesh.
+The mesh would not be created if the number of nozzle points were >116 or <116, Therefore this was changed by adding:
+
+Which uses MATLAB to calculate the number of XY points, and then puts it in the Macro file.
+This was originally accounted for in one part of the code but not this part.
+% Change points to account for number of points in XY file
+ScriptChanger(ICEM_Script_File,106, ['ic_hex_split_grid 41 19 pnt', num2str(Nozzle_Profile_Points - 1), ' m PNTS FLUID RESERVOIR_WALL INLET NOZZLE_WALL LEFT_REACTOR_WALL TOP_REACTOR_WALL OUTLET RIGHT_REACTOR_WALL AXIS VORFN'])
+ScriptChanger(ICEM_Script_File,109, ['ic_hex_split_grid 11 13 pnt', num2str(Nozzle_Profile_Points - 1), ' m PNTS FLUID RESERVOIR_WALL INLET NOZZLE_WALL LEFT_REACTOR_WALL TOP_REACTOR_WALL OUTLET RIGHT_REACTOR_WALL AXIS VORFN'])
+ScriptChanger(ICEM_Script_File,116, ['ic_hex_move_node 61 pnt', num2str(Nozzle_Profile_Points - 1)])
+
+V1.2 - 30/10/2023
+Updated y+ mesh adaption as it was not working correctly before. Now its working and adapts the mesh to ensure y+ < 1 everywhere for every case.
+
+V1.3 06/11/2023
+Updated fluent script to output 2D contour for density, temperature, mach and pressure. I also included a script that makes a 2D
+contour plot the data and outputs it into the Contour_Data folder. Added 2D temeprature output in the form of a .txt file
+
+V2.0 10/11/2023 - Changed Nozzle_Characterisation_CFD into a function to allow users to be able to parametrically change
+the pressure and recieve multiple outputs. Converted the nozzle_profile_formatter to a function and streamliend its usage in
+the Parametric_Study.m file.
+
+V3.0 17/11/2023 - Added the ability to output 2D contour data for temperature. pressure, density and temperature. Now allows
+the user to state how far they want the 2D data away from the flow axis. Added a detailed user guide to help.
+
+V4.0 03/05/2024 - Added the ability to change the solver type, mesh density, pseudo timescale factor and other options in the main Parametric_Study.m file.
+Also added files containing benchmark test. mesh dependence studies and a comparison between the pressure and density based solver. An additional Folder has been
+added which is named "Isentropic_Nozzle_Calculator" this can be used to estimate the Mach number, temperature and pressure ratio for any nozzle input.
+

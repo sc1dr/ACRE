@@ -1,0 +1,341 @@
+
+Pout =
+
+  170.6500
+
+[Warning: File 'nozzle_profile_formatter.asv' not found.] 
+[> In nozzle_profile_formatter (line 81)
+In Parametric_Study (line 100)] 
+[Warning: Directory already exists.] 
+[> In cfd_blackbox (line 107)
+In Parametric_Study (line 106)] 
+
+Change =
+
+    'ic_point {} PNTS pnt.00 0,18.5,0'
+
+
+Change =
+
+    'ic_point {} PNTS pnt.01 -23,18.5,0'
+
+
+Change =
+
+    'ic_point {} PNTS pnt.02 -23,0,0'
+
+
+Change =
+
+    'ic_point {} PNTS pnt.03 751,0,0'
+
+
+Change =
+
+    'ic_point {} PNTS pnt.04 751,120,0'
+
+
+Change =
+
+    'ic_point {} PNTS pnt.05 41.621,120,0'
+
+
+Change =
+
+    'ic_curve point CRVS crv.06 {pnt.05 pnt116}'
+
+
+Change =
+
+    'ic_hex_split_grid 41 19 pnt116 m PNTS CRVS FLUID VORFN'
+
+
+Change =
+
+    'ic_hex_split_grid 11 13 pnt116 m PNTS CRVS FLUID VORFN'
+
+
+Change =
+
+    'ic_hex_move_node 61 pnt116'
+
+
+Change =
+
+    'ic_point crv_par PNTS pnt.06 {crv.01	0.4363}'
+
+
+Change =
+
+    'ic_point crv_par PNTS pnt.07 {crv.01 0.5637}'
+
+
+Change =
+
+    'ic_point crv_par PNTS pnt.08 {crv.05 0.31577}'
+
+
+Change =
+
+    'ic_point crv_par PNTS pnt.09 {crv.05 0.28273}'
+
+
+Change =
+
+    'set nodevalue1 [expr ($edgelength1 *2.1225)]'
+
+
+Change =
+
+    'set nodevalue2 [expr ($edgelength2 *2.04)]'
+
+
+Change =
+
+    'set nodevalue3 [expr ($edgelength3 *1.7948)]'
+
+
+Change =
+
+    'set nodevalue4 [expr ($edgelength4 *0.559)]'
+
+
+Change =
+
+    'set nodevalue5 [expr ($edgelength5 *0.28135)]'
+
+
+Change =
+
+    'set nodevalue6 [expr ($edgelength6 *0.22)]'
+
+
+Change =
+
+    'set nodevalue7 [expr ($edgelength7 *2.5)]'
+
+
+Change =
+
+    'set nodevalue8 [expr ($edgelength8 *0.6737)]'
+
+
+Change =
+
+    'set nodevalue9 [expr ($edgelength9 *1.3333)]'
+
+
+Change =
+
+    'ic_exec /apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd/icemcfd/output-interfaces/fluent6 -dom $script_dir/Meshing/project1.uns -b $script_dir/Meshing/project1.fbc -dim2d $script_dir/M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/Mesh'
+
+
+Change =
+
+    'ic_reports_write_mesh_report All $script_dir/M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/mesh_report.html -format HTML -mesher {ICEM CFD 2023 R1} -title {mesh_report mesh report} -user USER -write_quality All -write_quality_all __NONE__ -write_summary All -write_diagnostics All'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "file/read-case /nobackup/scldr/ACRE_V4.0/M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/Mesh.msh ok"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/define/boundary-conditions/pressure-inlet inlet yes no 5222.73 no 0 no 300 no yes no no yes 1 1"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/define/boundary-conditions/pressure-outlet outlet yes no 170.65 no 300 no yes no no yes 1 1 yes no no"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/solve/iterate 500"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/solve/set/pseudo-transient yes yes 1 0.5 0"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/plot plot yes M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/axial_pressure yes no no total-pressure yes 1 0 axis ()"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/plot plot yes M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/axial_mach yes no no mach-number yes 1 0 axis ()"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/plot plot yes M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/axial_temperature yes no no temperature yes 1 0 axis ()"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/plot plot yes M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/axial_density yes no no density yes 1 0 axis ()"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/plot plot yes M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/axial_tke yes no no tke yes 1 0 axis ()"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/solve/report-files/edit max-mach file-name M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/max-mach-convergence.txt"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/solve/report-files/edit min-temp file-name M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/min-temp-convergence.txt"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/file/write-case M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/CFD_Data.cas y"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/file/write-data M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/CFD_Data.dat y"))'
+
+
+Change =
+
+    '    ((>= i 151))'
+
+
+Change =
+
+    '    (ti-menu-load-string (format #f "/surface/line-surface line_~a 0.041621 ~a 0.774 ~a" ycoord ycoord ycoord))'
+
+
+Change =
+
+    '    (ti-menu-load-string (format #f "/plot plot yes M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/Contour_Data/axial_pressure_y_~a yes no no total-pressure yes 1 0 line_~a ()" i ycoord))'
+
+
+Change =
+
+    '    (ti-menu-load-string (format #f "/plot plot yes M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/Contour_Data/axial_mach_y_~a yes no no mach yes 1 0 line_~a ()" i ycoord))'
+
+
+Change =
+
+    '    (ti-menu-load-string (format #f "/plot plot yes M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/Contour_Data/axial_temperature_y_~a yes no no temperature yes 1 0 line_~a ()" i ycoord))'
+
+
+Change =
+
+    '    (ti-menu-load-string (format #f "/plot plot yes M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/Contour_Data/axial_density_y_~a yes no no density yes 1 0 line_~a ()" i ycoord))'
+
+
+Change =
+
+    ';(do((i 0 (+ i 1)))'
+
+
+Change =
+
+    '    ;((>= i 151))'
+
+
+Change =
+
+    '    ;(define a 5000)'
+
+
+Change =
+
+    '    ;(define b i)'
+
+
+Change =
+
+    '    ;(define ycoord (/ b a ))'
+
+
+Change =
+
+    '    ;(ti-menu-load-string (format #f "/surface/line-surface line_~a 0.041621 ~a 0.774 ~a" ycoord ycoord ycoord))'
+
+
+Change =
+
+    '    ;(ti-menu-load-string (format #f "/plot plot yes M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/Contour_Data/axial_pressure_y_~a yes no no total-pressure yes 1 0 line_~a ()" i ycoord))'
+
+
+Change =
+
+    '    ;(ti-menu-load-string (format #f "/plot plot yes M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/Contour_Data/axial_mach_y_~a yes no no mach yes 1 0 line_~a ()" i ycoord))'
+
+
+Change =
+
+    '    ;(ti-menu-load-string (format #f "/plot plot yes M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/Contour_Data/axial_temperature_y_~a yes no no temperature yes 1 0 line_~a ()" i ycoord))'
+
+
+Change =
+
+    '    ;(ti-menu-load-string (format #f "/plot plot yes M2.25_N2_Pres_5222_Pchm_170_IR_5.00mm/Contour_Data/axial_density_y_~a yes no no density yes 1 0 line_~a ()" i ycoord))'
+
+
+Change =
+
+    ';)'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/define/materials/copy fluid nitrogen"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/define/boundary-conditions/fluid fluid yes nitrogen no no no no no no no"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/define/materials delete air"))'
+
+
+Change =
+
+    '(ti-menu-load-string (format #f "/define/materials change-create nitrogen nitrogen yes ideal-gas yes piecewise-polynomial 2 0 340 7 1.1863e3 -4.4245 0.0545 -3.4749e-4 1.209e-6 -2.1777e-9 1.5894e-12 340 2000 8 1.0922e3 -0.2679 -2.9022e-5 1.8757e-6 -2.8784e-9 1.905e-12 -6.061e-16 7.595e-20 yes polynomial 8 -0.0014 1.1747e-4 -1.2094e-7 1.3642e-10 -1.0438e-13 5.0045e-17 -1.3416e-20 1.527e-24 yes sutherland three-coefficient-method 1.663e-05 273.11 106.67 no no no"))'
+
+
+
+Error (50/344) from HOOPS routine 'Create_Segment' -
+	  which was called from 'Hoops Startup (internal)' -
+	  which was called from 'Show_Alias' -
+
+	 Syntax error during expansion of '?picture' -
+	 Trailing '/' with no name following
+
+[Warning: File 'tetin_emergency.tin' not found.] 
+[> In cfd_blackbox (line 417)
+In Parametric_Study (line 106)] 
+[Warning: File 'uns_emergency.uns' not found.] 
+[> In cfd_blackbox (line 418)
+In Parametric_Study (line 106)] 
+
+Flow_Breakdown_Index =
+
+   342
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+0.005 ± 0.001 kg/m^3
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In cfd_blackbox (line 552)
+In Parametric_Study (line 106)] 
