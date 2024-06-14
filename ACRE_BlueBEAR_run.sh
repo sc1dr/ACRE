@@ -29,7 +29,7 @@ module purge; module load bluebear
 module load ANSYS/2023R1
 module load MATLAB/2022a
 
-export ANSYSLMD_LICENSE_FILE=1055@ansys-research.leeds.ac.uk 
+export ANSYSLMD_LICENSE_FILE=1055@<license>
 
 matlab -nodisplay -batch Parametric_Study > MATLAB_Output.txt
 
