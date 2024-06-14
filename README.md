@@ -15,7 +15,7 @@ Users have the ability to change to change the following parameters:
   
 The code will then take these parameters in and will alter the script files, effectively automating the entire CFD process for the user. A diagram of the workflow used by the toolbox can be seen below:
 
-![github_ACRE_workflowpng](https://github.com/sc1dr/ACRE/assets/101201899/58840e06-7401-460d-9c2d-c72082a37519)
+![github_ACRE_workflowpng](https://github.com/sc1dr/ACRE/assets/101201899/3a1fa193-1637-4ce7-a56b-d2aaf8b0d356)
 
 ## How to Install the ACRE framework to the HPC
 clone this repository onto your HPC using ```git clone https://github.com/sc1dr/ACRE.git ```  
