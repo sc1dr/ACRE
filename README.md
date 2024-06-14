@@ -1,4 +1,4 @@
-# ACRE - Automated CFD Characterisation for Low Temperature Kientics
+# ACRE - Automated CFD Characterisation for Low Temperature Kinetics
 ## Author: Luke Driver (scldr@leeds.ac.uk) - University of Leeds PhD Student
 
 ## This is a MATLAB Toolbox to be run on Linux that uses Ansys and its respective scripting languages to automate the entire CFD workflow, this includes geometry, meshing, solution setup and data output. 
