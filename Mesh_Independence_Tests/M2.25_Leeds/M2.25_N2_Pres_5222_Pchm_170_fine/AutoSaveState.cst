@@ -1,0 +1,2114 @@
+# State file created:  2023/11/29 14:41:20
+# CFX-22.1
+
+COMMENT:User Data
+  Comment Exists = True
+  Comment Heading = User Data
+  Heading Level = 1
+END
+CONTOUR:TKE
+  Apply Instancing Transform = On
+  Clip Contour = Off
+  Colour Map = Inverse Greyscale
+  Colour Scale = Logarithmic
+  Colour Variable = Density.Gradient
+  Colour Variable Boundary Values = Conservative
+  Constant Contour Colour = Off
+  Contour Range = Global
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Contours = On
+  Font = Sans Serif
+  Fringe Fill = On
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Colour = 0, 0, 0
+  Line Colour Mode = Default
+  Line Width = 1
+  Location List = periodic 1
+  Max = 3500 [kg m^-4]
+  Min = 1000 [kg m^-4]
+  Number of Contours = 50
+  Show Numbers = Off
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Text Colour = 0, 0, 0
+  Text Colour Mode = Default
+  Text Height = 0.024
+  Transparency = 0.0
+  Use Face Values = Off
+  Value List = 0 [kg m^-3],1 [kg m^-3]
+  Visibility = Off
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = On
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = X
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 180 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+CONTOUR:TKE 1
+  Apply Instancing Transform = On
+  Clip Contour = Off
+  Colour Map = Inverse Greyscale
+  Colour Scale = Linear
+  Colour Variable = Density.Gradient
+  Colour Variable Boundary Values = Conservative
+  Constant Contour Colour = Off
+  Contour Range = User Specified
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Contours = On
+  Font = Sans Serif
+  Fringe Fill = On
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Colour = 0, 0, 0
+  Line Colour Mode = Default
+  Line Width = 1
+  Location List = periodic 1
+  Max = 1 [kg m^-4]
+  Min = 0 [kg m^-4]
+  Number of Contours = 100
+  Show Numbers = Off
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Text Colour = 0, 0, 0
+  Text Colour Mode = Default
+  Text Height = 0.024
+  Transparency = 0.0
+  Use Face Values = Off
+  Value List = 0 [Pa],1 [Pa]
+  Visibility = On
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = On
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = X
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+CONTOUR:TKE 2
+  Apply Instancing Transform = On
+  Clip Contour = Off
+  Colour Map = Inverse Greyscale
+  Colour Scale = Linear
+  Colour Variable = Density.Gradient
+  Colour Variable Boundary Values = Conservative
+  Constant Contour Colour = Off
+  Contour Range = User Specified
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Contours = On
+  Font = Sans Serif
+  Fringe Fill = On
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Colour = 0, 0, 0
+  Line Colour Mode = Default
+  Line Width = 1
+  Location List = periodic 1
+  Max = 1 [kg m^-4]
+  Min = 0 [kg m^-4]
+  Number of Contours = 100
+  Show Numbers = Off
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Text Colour = 0, 0, 0
+  Text Colour Mode = Default
+  Text Height = 0.024
+  Transparency = 0.0
+  Use Face Values = Off
+  Value List = 0 [Pa],1 [Pa]
+  Visibility = On
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = On
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = X
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 180 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+CONTOUR:Temperature contour
+  Apply Instancing Transform = On
+  Clip Contour = Off
+  Colour Map = BGR Modern
+  Colour Scale = Linear
+  Colour Variable = Density
+  Colour Variable Boundary Values = Conservative
+  Constant Contour Colour = Off
+  Contour Range = Global
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Contours = On
+  Font = Sans Serif
+  Fringe Fill = On
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Colour = 0, 0, 0
+  Line Colour Mode = Default
+  Line Width = 1
+  Location List = periodic 1
+  Max = 0.0 [kg m^-3]
+  Min = 0.0 [kg m^-3]
+  Number of Contours = 20
+  Show Numbers = Off
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Text Colour = 0, 0, 0
+  Text Colour Mode = Default
+  Text Height = 0.024
+  Transparency = 0.0
+  Use Face Values = Off
+  Value List = 0 [kg m^-3],1 [kg m^-3]
+  Visibility = Off
+  OBJECT VIEW TRANSFORM:
+    Apply Reflection = Off
+    Apply Rotation = On
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = X
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0 [degree]
+    Rotation Axis From = 0 [m], 0 [m], 0 [m]
+    Rotation Axis To = 0 [m], 0 [m], 0 [m]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [m], 0 [m], 0 [m]
+    X = 0.0 [m]
+    Y = 0.0 [m]
+    Z = 0.0 [m]
+  END
+END
+DATA READER:
+  Active Case Name = Case CFD_Data
+  Append Results = False
+  Apply X Offset = false
+  Apply Y Offset = false
+  Apply Z Offset = false
+  Clear All Objects = False
+  Construct Variables From Fourier Coefficients = true
+  Current Case List = Case CFD_Data
+  Current Case Name = C:/Users/scldr/OneDrive - University of Leeds/PhD/CFD/\
+USCR/Paper_1/Mesh_Dependence_Study_M2.25_M4.0/M2.25_N2_Pres_5222_Pchm_170_fine/\
+CFD_Data.cdat
+  Current Results File = C:/Users/scldr/OneDrive - University of Leeds/PhD/CFD/\
+USCR/Paper_1/Mesh_Dependence_Study_M2.25_M4.0/M2.25_N2_Pres_5222_Pchm_170_fine/\
+CFD_Data.cdat
+  Current Timestep = -1
+  Current Timevalue = 0
+  Edit Case Names = false
+  File Angle Units = rad
+  File Chemical Amount Units = kmol
+  File Current Units = A
+  File Length Units = m
+  File Light Units = cd
+  File Mass Units = kg
+  File Solid Angle Units = sr
+  File Temperature Units = K
+  File Time Units = s
+  Force File Reload = False
+  Keep Camera Position = True
+  Load Particle Tracks = true
+  Multi Configuration File Load Option = Last Case
+  Open in New View = true
+  Open to Compare = false
+  Reference Acoustic Pressure = 2.0e-5 [Pa]
+  Reference Length = 1.0 [m]
+  Reference Velocity = 1.0 [m s^-1]
+  Timestep Match Criterion = Same Step
+  Timestep Sync Mode = By Time Value
+  Timevalue Match Criterion = Same Value
+  CASE:Case CFD_Data
+    Construct Variables From Fourier Coefficients = true
+    Current Case Name = C:/Users/scldr/OneDrive - University of Leeds/PhD/CFD/\
+USCR/Paper_1/Mesh_Dependence_Study_M2.25_M4.0/M2.25_N2_Pres_5222_Pchm_170_fine/\
+CFD_Data.cdat
+    Current Results File = C:/Users/scldr/OneDrive - University of Leeds/PhD/\
+CFD/USCR/Paper_1/Mesh_Dependence_Study_M2.25_M4.0/\
+M2.25_N2_Pres_5222_Pchm_170_fine/CFD_Data.cdat
+    Current Timestep = -1
+    Current Timevalue = 0
+    File Angle Units = rad
+    File Chemical Amount Units = kmol
+    File Current Units = A
+    File Length Units = m
+    File Light Units = cd
+    File Mass Units = kg
+    File Solid Angle Units = sr
+    File Temperature Units = K
+    File Time Units = s
+    Multi Configuration File Load Option = Last Case
+    BOUNDARY:axis
+      Apply Instancing Transform = On
+      Apply Texture = Off
+      Blend Texture = On
+      Colour = 0.2, 0.5, 1
+      Colour Map = Default Colour Map
+      Colour Mode = Constant
+      Colour Scale = Linear
+      Colour Variable Boundary Values = Hybrid
+      Culling Mode = No Culling
+      Draw Contours = Off
+      Draw Faces = On
+      Draw Lines = Off
+      Instancing Transform = Default Transform
+      Lighting = true
+      Line Colour = 0, 0, 0
+      Line Colour Mode = Default
+      Line Width = 1
+      Number of Contours = 11
+      Range = Global
+      Render Edge Angle = 0 [degree]
+      Specular Lighting = On
+      Surface Drawing = Smooth Shading
+      Texture Angle = 0
+      Texture Direction = 0.0, 1.0, 0.0
+      Texture Material = Metal
+      Texture Position = 0.0, 0.0
+      Texture Scale = 1.0
+      Texture Type = Predefined
+      Tile Texture = Off
+      Transform Texture = Off
+      Transparency = 0.0
+      Visibility = Off
+    END
+    BOUNDARY:inlet
+      Apply Instancing Transform = On
+      Apply Texture = Off
+      Blend Texture = On
+      Colour = 0.2, 0.5, 1
+      Colour Map = Default Colour Map
+      Colour Mode = Constant
+      Colour Scale = Linear
+      Colour Variable Boundary Values = Hybrid
+      Culling Mode = No Culling
+      Draw Contours = Off
+      Draw Faces = On
+      Draw Lines = Off
+      Instancing Transform = Default Transform
+      Lighting = true
+      Line Colour = 0, 0, 0
+      Line Colour Mode = Default
+      Line Width = 1
+      Number of Contours = 11
+      Range = Global
+      Render Edge Angle = 0 [degree]
+      Specular Lighting = On
+      Surface Drawing = Smooth Shading
+      Texture Angle = 0
+      Texture Direction = 0.0, 1.0, 0.0
+      Texture Material = Metal
+      Texture Position = 0.0, 0.0
+      Texture Scale = 1.0
+      Texture Type = Predefined
+      Tile Texture = Off
+      Transform Texture = Off
+      Transparency = 0.0
+      Visibility = Off
+    END
+    BOUNDARY:left_reactor_wall
+      Apply Instancing Transform = On
+      Apply Texture = Off
+      Blend Texture = On
+      Colour = 0.2, 0.5, 1
+      Colour Map = Default Colour Map
+      Colour Mode = Constant
+      Colour Scale = Linear
+      Colour Variable Boundary Values = Hybrid
+      Culling Mode = No Culling
+      Draw Contours = Off
+      Draw Faces = On
+      Draw Lines = Off
+      Instancing Transform = Default Transform
+      Lighting = true
+      Line Colour = 0, 0, 0
+      Line Colour Mode = Default
+      Line Width = 1
+      Number of Contours = 11
+      Range = Global
+      Render Edge Angle = 0 [degree]
+      Specular Lighting = On
+      Surface Drawing = Smooth Shading
+      Texture Angle = 0
+      Texture Direction = 0.0, 1.0, 0.0
+      Texture Material = Metal
+      Texture Position = 0.0, 0.0
+      Texture Scale = 1.0
+      Texture Type = Predefined
+      Tile Texture = Off
+      Transform Texture = Off
+      Transparency = 0.0
+      Visibility = On
+    END
+    BOUNDARY:nozzle_wall
+      Apply Instancing Transform = On
+      Apply Texture = Off
+      Blend Texture = On
+      Colour = 0.2, 0.5, 1
+      Colour Map = Default Colour Map
+      Colour Mode = Constant
+      Colour Scale = Linear
+      Colour Variable Boundary Values = Hybrid
+      Culling Mode = No Culling
+      Draw Contours = Off
+      Draw Faces = On
+      Draw Lines = Off
+      Instancing Transform = Default Transform
+      Lighting = true
+      Line Colour = 0, 0, 0
+      Line Colour Mode = Default
+      Line Width = 1
+      Number of Contours = 11
+      Range = Global
+      Render Edge Angle = 0 [degree]
+      Specular Lighting = On
+      Surface Drawing = Smooth Shading
+      Texture Angle = 0
+      Texture Direction = 0.0, 1.0, 0.0
+      Texture Material = Metal
+      Texture Position = 0.0, 0.0
+      Texture Scale = 1.0
+      Texture Type = Predefined
+      Tile Texture = Off
+      Transform Texture = Off
+      Transparency = 0.0
+      Visibility = On
+    END
+    BOUNDARY:outlet
+      Apply Instancing Transform = On
+      Apply Texture = Off
+      Blend Texture = On
+      Colour = 0.2, 0.5, 1
+      Colour Map = Default Colour Map
+      Colour Mode = Constant
+      Colour Scale = Linear
+      Colour Variable Boundary Values = Hybrid
+      Culling Mode = No Culling
+      Draw Contours = Off
+      Draw Faces = On
+      Draw Lines = Off
+      Instancing Transform = Default Transform
+      Lighting = true
+      Line Colour = 0, 0, 0
+      Line Colour Mode = Default
+      Line Width = 1
+      Number of Contours = 11
+      Range = Global
+      Render Edge Angle = 0 [degree]
+      Specular Lighting = On
+      Surface Drawing = Smooth Shading
+      Texture Angle = 0
+      Texture Direction = 0.0, 1.0, 0.0
+      Texture Material = Metal
+      Texture Position = 0.0, 0.0
+      Texture Scale = 1.0
+      Texture Type = Predefined
+      Tile Texture = Off
+      Transform Texture = Off
+      Transparency = 0.0
+      Visibility = Off
+    END
+    BOUNDARY:periodic 1
+      Apply Instancing Transform = On
+      Apply Texture = Off
+      Blend Texture = On
+      Colour = 0.2, 0.5, 1
+      Colour Map = Default Colour Map
+      Colour Mode = Constant
+      Colour Scale = Linear
+      Colour Variable Boundary Values = Hybrid
+      Culling Mode = No Culling
+      Draw Contours = Off
+      Draw Faces = On
+      Draw Lines = Off
+      Instancing Transform = Default Transform
+      Lighting = true
+      Line Colour = 0, 0, 0
+      Line Colour Mode = Default
+      Line Width = 1
+      Number of Contours = 11
+      Range = Global
+      Render Edge Angle = 0 [degree]
+      Specular Lighting = On
+      Surface Drawing = Smooth Shading
+      Texture Angle = 0
+      Texture Direction = 0.0, 1.0, 0.0
+      Texture Material = Metal
+      Texture Position = 0.0, 0.0
+      Texture Scale = 1.0
+      Texture Type = Predefined
+      Tile Texture = Off
+      Transform Texture = Off
+      Transparency = 0.0
+      Visibility = Off
+    END
+    BOUNDARY:periodic 1 shadow
+      Apply Instancing Transform = On
+      Apply Texture = Off
+      Blend Texture = On
+      Colour = 0.2, 0.5, 1
+      Colour Map = Default Colour Map
+      Colour Mode = Constant
+      Colour Scale = Linear
+      Colour Variable Boundary Values = Hybrid
+      Culling Mode = No Culling
+      Draw Contours = Off
+      Draw Faces = On
+      Draw Lines = Off
+      Instancing Transform = Default Transform
+      Lighting = true
+      Line Colour = 0, 0, 0
+      Line Colour Mode = Default
+      Line Width = 1
+      Number of Contours = 11
+      Range = Global
+      Render Edge Angle = 0 [degree]
+      Specular Lighting = On
+      Surface Drawing = Smooth Shading
+      Texture Angle = 0
+      Texture Direction = 0.0, 1.0, 0.0
+      Texture Material = Metal
+      Texture Position = 0.0, 0.0
+      Texture Scale = 1.0
+      Texture Type = Predefined
+      Tile Texture = Off
+      Transform Texture = Off
+      Transparency = 0.0
+      Visibility = false
+    END
+    BOUNDARY:reservoir_wall
+      Apply Instancing Transform = On
+      Apply Texture = Off
+      Blend Texture = On
+      Colour = 0.2, 0.5, 1
+      Colour Map = Default Colour Map
+      Colour Mode = Constant
+      Colour Scale = Linear
+      Colour Variable Boundary Values = Hybrid
+      Culling Mode = No Culling
+      Draw Contours = Off
+      Draw Faces = On
+      Draw Lines = Off
+      Instancing Transform = Default Transform
+      Lighting = true
+      Line Colour = 0, 0, 0
+      Line Colour Mode = Default
+      Line Width = 1
+      Number of Contours = 11
+      Range = Global
+      Render Edge Angle = 0 [degree]
+      Specular Lighting = On
+      Surface Drawing = Smooth Shading
+      Texture Angle = 0
+      Texture Direction = 0.0, 1.0, 0.0
+      Texture Material = Metal
+      Texture Position = 0.0, 0.0
+      Texture Scale = 1.0
+      Texture Type = Predefined
+      Tile Texture = Off
+      Transform Texture = Off
+      Transparency = 0.0
+      Visibility = On
+    END
+    BOUNDARY:right_reactor_wall
+      Apply Instancing Transform = On
+      Apply Texture = Off
+      Blend Texture = On
+      Colour = 0.2, 0.5, 1
+      Colour Map = Default Colour Map
+      Colour Mode = Constant
+      Colour Scale = Linear
+      Colour Variable Boundary Values = Hybrid
+      Culling Mode = No Culling
+      Draw Contours = Off
+      Draw Faces = On
+      Draw Lines = Off
+      Instancing Transform = Default Transform
+      Lighting = true
+      Line Colour = 0, 0, 0
+      Line Colour Mode = Default
+      Line Width = 1
+      Number of Contours = 11
+      Range = Global
+      Render Edge Angle = 0 [degree]
+      Specular Lighting = On
+      Surface Drawing = Smooth Shading
+      Texture Angle = 0
+      Texture Direction = 0.0, 1.0, 0.0
+      Texture Material = Metal
+      Texture Position = 0.0, 0.0
+      Texture Scale = 1.0
+      Texture Type = Predefined
+      Tile Texture = Off
+      Transform Texture = Off
+      Transparency = 0.0
+      Visibility = On
+    END
+    BOUNDARY:top_reactor_wall
+      Apply Instancing Transform = On
+      Apply Texture = Off
+      Blend Texture = On
+      Colour = 0.2, 0.5, 1
+      Colour Map = Default Colour Map
+      Colour Mode = Constant
+      Colour Scale = Linear
+      Colour Variable Boundary Values = Hybrid
+      Culling Mode = No Culling
+      Draw Contours = Off
+      Draw Faces = On
+      Draw Lines = Off
+      Instancing Transform = Default Transform
+      Lighting = true
+      Line Colour = 0, 0, 0
+      Line Colour Mode = Default
+      Line Width = 1
+      Number of Contours = 11
+      Range = Global
+      Render Edge Angle = 0 [degree]
+      Specular Lighting = On
+      Surface Drawing = Smooth Shading
+      Texture Angle = 0
+      Texture Direction = 0.0, 1.0, 0.0
+      Texture Material = Metal
+      Texture Position = 0.0, 0.0
+      Texture Scale = 1.0
+      Texture Type = Predefined
+      Tile Texture = Off
+      Transform Texture = Off
+      Transparency = 0.0
+      Visibility = On
+    END
+    DOMAIN:fluid
+      Angle Definition Method = Instances in 360
+      Apply Reflection = false
+      Apply Rotation = true
+      Apply Translation = false
+      Axis From File = Custom
+      Background Mesh Density = 2000
+      Background Mesh Generation Method = Quasi Orthogonal
+      Blade Aligned Variable Available = false
+      Create Additional Turbo Variables = false
+      Do Cylindrical Initialization = False
+      Domain Type = Normal
+      Full Circle = Off
+      Hub Curve Mode = From Turbo Region
+      Inlet Curve Mode = From Turbo Region
+      Inlet Region = /DATA READER/CASE:Case CFD_Data/BOUNDARY:inlet
+      Instance Definition = From File
+      Linear Blade Aligned Variable Available = false
+      Number of Components in 360 = 1
+      Number of Copies = 1
+      Number of Data Instances = 1
+      Number of Passages in 360 = 1
+      Number of Passages in Component = 1
+      Outlet Curve Mode = From Turbo Region
+      Outlet Region = /DATA READER/CASE:Case CFD_Data/BOUNDARY:outlet
+      Principal Axis = Z
+      Reflection Plane Option = From Plane
+      Rotation Angle = 0 [degree]
+      Rotation Axis From = 0.0, 0.0, 0.0
+      Rotation Axis To = 1.0, 0.0, 0.0
+      Rotation Axis Type = Principal Axis
+      Shroud Curve Mode = From Turbo Region
+      TBR User Theta Correction = 0.0
+      Translation Vector = 0.0, 0.0, 0.0
+      Turbo 360 Case without Periodics = false
+      X = 0.0
+      Y = 0.0
+      Z = 0.0
+    END
+  END
+END
+DEFAULT INSTANCE TRANSFORM:Default Transform
+  Angle Definition Method = Instances in 360
+  Apply Reflection = false
+  Apply Rotation = true
+  Apply Translation = false
+  Full Circle = Off
+  Instancing Info From Domain = true
+  Number of Components in 360 = 12
+  Number of Copies = 1
+  Number of Passages in 360 = 12
+  Number of Passages in Component = 1
+  Principal Axis = Z
+  Reflection Plane Option = From Plane
+  Rotation Angle = 0 [degree]
+  Rotation Axis From = 0.0, 0.0, 0.0
+  Rotation Axis To = 1.0, 0.0, 0.0
+  Rotation Axis Type = Principal Axis
+  Translation Vector = 0.0, 0.0, 0.0
+  X = 0.0
+  Y = 0.0
+  Z = 0.0
+END
+DEFAULT LEGEND:Default Legend View 1
+  Colour = 0, 0, 0
+  Font = Sans Serif
+  Legend Aspect = 0.07
+  Legend Format = %10.3e
+  Legend Orientation = Vertical
+  Legend Plot = /CONTOUR:TKE 1
+  Legend Position = 0.02, 0.15
+  Legend Resolution = 256
+  Legend Shading = Smooth
+  Legend Size = 0.6
+  Legend Ticks = 5
+  Legend Title = Legend
+  Legend Title Mode = Variable and Location
+  Legend X Justification = Left
+  Legend Y Justification = Top
+  Related Object = View 1
+  Show Legend Units = On
+  Text Colour Mode = Default
+  Text Height = 0.024
+  Text Rotation = 0
+  Visibility = Off
+END
+DEFAULT LEGEND:Default Legend View 2
+  Colour = 0, 0, 0
+  Font = Sans Serif
+  Legend Aspect = 0.07
+  Legend Format = %10.3e
+  Legend Orientation = Vertical
+  Legend Plot = /CONTOUR:TKE 1
+  Legend Position = 0.02, 0.15
+  Legend Resolution = 256
+  Legend Shading = Smooth
+  Legend Size = 0.6
+  Legend Ticks = 5
+  Legend Title = Legend
+  Legend Title Mode = Variable and Location
+  Legend X Justification = Left
+  Legend Y Justification = Top
+  Related Object = View 2
+  Show Legend Units = On
+  Text Colour Mode = Default
+  Text Height = 0.024
+  Text Rotation = 0
+  Visibility = true
+END
+DEFAULT LEGEND:Default Legend View 3
+  Colour = 0, 0, 0
+  Font = Sans Serif
+  Legend Aspect = 0.07
+  Legend Format = %10.3e
+  Legend Orientation = Vertical
+  Legend Plot = /CONTOUR:TKE 1
+  Legend Position = 0.02, 0.15
+  Legend Resolution = 256
+  Legend Shading = Smooth
+  Legend Size = 0.6
+  Legend Ticks = 5
+  Legend Title = Legend
+  Legend Title Mode = Variable and Location
+  Legend X Justification = Left
+  Legend Y Justification = Top
+  Related Object = View 3
+  Show Legend Units = On
+  Text Colour Mode = Default
+  Text Height = 0.024
+  Text Rotation = 0
+  Visibility = true
+END
+DEFAULT LEGEND:Default Legend View 4
+  Colour = 0, 0, 0
+  Font = Sans Serif
+  Legend Aspect = 0.07
+  Legend Format = %10.3e
+  Legend Orientation = Vertical
+  Legend Plot = /CONTOUR:TKE 1
+  Legend Position = 0.02, 0.15
+  Legend Resolution = 256
+  Legend Shading = Smooth
+  Legend Size = 0.6
+  Legend Ticks = 5
+  Legend Title = Legend
+  Legend Title Mode = Variable and Location
+  Legend X Justification = Left
+  Legend Y Justification = Top
+  Related Object = View 4
+  Show Legend Units = On
+  Text Colour Mode = Default
+  Text Height = 0.024
+  Text Rotation = 0
+  Visibility = true
+END
+DEFORMATION INFO:
+  Deformation Scale = 1
+END
+FILE PROCESSING:
+  Path Stack = .
+  Processing Mode = None
+  Supress File Replacement Warnings = false
+END
+HARDCOPY:
+  Antialiasing = On
+  Hardcopy Filename = C:/Users/scldr/OneDrive - University of Leeds/PhD/CFD/\
+USCR/Paper_1/Mesh_Dependence_Study_M2.25_M4.0/M2.25_N2_Pres_5222_Pchm_170_fine/\
+Temp_TKE_Contour_RANS_M2.25_Pres_5222_Pchm_170_scheiren.jpg
+  Hardcopy Format = jpg
+  Hardcopy Tolerance = 0.0001
+  Image Height = 600
+  Image Scale = 100
+  Image Width = 600
+  JPEG Image Quality = 100
+  Paper Orientation = Landscape
+  Paper Size = Letter
+  Print Line Width = 1
+  Print Quality = High
+  Use Screen Size = On
+  White Background = Off
+END
+LEGEND:TKE Legend
+  Colour = 0, 0, 0
+  Font = Sans Serif
+  Legend Aspect = 0.07
+  Legend Format = %4.1f
+  Legend Orientation = Horizontal
+  Legend Plot = /CONTOUR:TKE 1
+  Legend Position = 0.02 , 0.15
+  Legend Resolution = 256
+  Legend Shading = Smooth
+  Legend Size = 0.90
+  Legend Ticks = 4
+  Legend Title = Legend
+  Legend Title Mode = Variable
+  Legend X Justification = Center
+  Legend Y Justification = Top
+  Show Legend Units = On
+  Text Colour Mode = User Specified
+  Text Height = 0.025
+  Text Rotation = 0
+  Visibility = On
+END
+LEGEND:Temperature Contour
+  Colour = 0, 0, 0
+  Font = Sans Serif
+  Legend Aspect = 0.07
+  Legend Format = %4.1f
+  Legend Orientation = Horizontal
+  Legend Plot = /CONTOUR:Temperature contour
+  Legend Position = 0.02 , 0.15
+  Legend Resolution = 256
+  Legend Shading = Smooth
+  Legend Size = 0.9
+  Legend Ticks = 5
+  Legend Title = Legend
+  Legend Title Mode = Variable
+  Legend X Justification = Center
+  Legend Y Justification = Bottom
+  Show Legend Units = On
+  Text Colour Mode = Default
+  Text Height = 0.024
+  Text Rotation = 0
+  Visibility = Off
+END
+LIBRARY:
+  CEL:
+    EXPRESSIONS:
+      Accumulated Time Step = 0
+      Current Phase Position = 0
+      Current Time Step = 0
+      Phase = Current Phase Position
+      Reference Pressure = 0 [Pa]
+      Sequence Step = 0
+      Time = 0 [s]
+      atstep = Accumulated Time Step
+      ctstep = Current Time Step
+      sstep = Sequence Step
+      t = Time
+    END
+  END
+END
+MASS FLOW CALC OPTION ON PHYSICAL SURFACES:
+  Option = Interpolated
+END
+REPORT:
+  Report Items = /TITLE PAGE,/REPORT/FILE INFORMATION OPTIONS,/REPORT/MESH \
+STATISTICS OPTIONS,/REPORT/PHYSICS SUMMARY OPTIONS,/REPORT/SOLUTION SUMMARY \
+OPTIONS,/REPORT/OPERATING MAPS,/COMMENT:User Data
+  FILE INFORMATION OPTIONS:
+    Include In Report = true
+    This Exists = true
+  END
+  MESH STATISTICS OPTIONS:
+    Include In Report = true
+    Show Connectivity Number = false
+    Show Edge Length Ratio = false
+    Show Element Volume Ratio = false
+    Show Max Face Angle = false
+    Show Min Face Angle = false
+    Show Number of Elements = true
+    Show Number of Hexahedra = false
+    Show Number of Nodes = true
+    Show Number of Polyhedra = false
+    Show Number of Pyramids = false
+    Show Number of Tetrahedra = false
+    Show Number of Wedges = false
+    This Exists = true
+  END
+  OPERATING MAPS:
+    Include In Report = true
+    This Exists = true
+  END
+  PHYSICS SUMMARY OPTIONS:
+    Include In Report = true
+    Show Boundary Physics = true
+    Show Domain Physics = true
+    This Exists = true
+  END
+  PREVIEW:
+    This Exists = true
+    OUTPUT SETTINGS:
+      Chart Image Type = png
+      Chart Size = Same As Figure
+      Custom Chart Size Height = 384
+      Custom Chart Size Width = 512
+      Custom Figure Size Height = 384
+      Custom Figure Size Width = 512
+      Figure Image Type = png
+      Figure Size = 512 x 384
+      Fit Views = false
+      This Exists = true
+    END
+  END
+  PUBLISH:
+    Default Report Name = Report
+    Generate 3D Viewer Files = false
+    Report Format = HTML
+    Report Path = ./Report.htm
+    Save Images In Separate Folder = true
+    This Exists = true
+    OUTPUT SETTINGS:
+      Chart Image Type = png
+      Chart Size = Same As Figure
+      Custom Chart Size Height = 384
+      Custom Chart Size Width = 512
+      Custom Figure Size Height = 384
+      Custom Figure Size Width = 512
+      Figure Image Type = png
+      Figure Size = 512 x 384
+      Fit Views = false
+      This Exists = true
+    END
+  END
+  SOLUTION SUMMARY OPTIONS:
+    Include In Report = false
+    Show Boundary Flow Summary = true
+    Show Force and Torque Summary = true
+    Show Forces = true
+    Show Torques = true
+    This Exists = true
+  END
+END
+SCALAR VARIABLE:Absolute Pressure
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Active Cell Partition
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Approximated Mass Flow
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Area
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Axial Coordinate
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Boundary Cell Distance
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Boundary Layer Cells
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Boundary Normal Distance
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Boundary Volume Distance
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Acoustic Courant Number
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Convective Courant Number
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Element Type
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Equiangle Skew
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Equivolume Skew
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Id
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Refine Level
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Reynolds Number
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Volume
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Volume Change
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Wall Distance
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Weight
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Zone Index
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Cell Zone Type
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Connectivity Number
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Daxial Velocity Dx
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Daxial Velocity Dy
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Density
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Density All
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Dp Dx
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Dp Dy
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Dradial Velocity Dx
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Dradial Velocity Dy
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Dynamic Pressure
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Dynamic Viscosity
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Eddy Viscosity
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Eddy Viscosity Ratio
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Edge Length Ratio
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Effective Prandtl Number
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Effective Thermal Conductivity
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Effective Viscosity
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Element Volume Inverse
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Element Volume Ratio
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Face Area Magnitude
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Face Area X
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Face Area Y
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Face Handedness
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Force X
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Force Y
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Force Z
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Heat Flux
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Interface Overlap Fraction
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Internal Energy
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Interpolated Mass Flow
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:K Production
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Lambda 2 Criterion
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Length
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Local Speed Of Sound
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Local Speed of Sound
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Mach Number
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Mach Number In Stn Frame
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Mark Poor Elements
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Mass Flow
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Mass Imbalance
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Maximum Face Angle
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Mesh Velocity U
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Mesh Velocity V
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Minimum Face Angle
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:N2d Cell Volume
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Normal X
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Normal Y
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Normal Z
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Orthogonal Quality
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Partition Neighbors
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Prandtl Number
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Pressure
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Pressure Coefficient
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Pressure Hessian Indicator
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Q Criterion Normalized
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Q Criterion Raw
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:R Gas Constant
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Radial Angular Coordinate
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Relative Total Pressure
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Relative Velocity Magnitude
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Rothalpy
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Skin Friction Coefficient
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Specific Heat Capacity At Constant Pressure
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Specific Heat Capacity at Constant Pressure
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Specific Heat Ratio
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Static Enthalpy
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Stored Cell Partition
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Strain Rate
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Stream Function
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Surface Heat Transfer Coefficient
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Surface Nusselt Number
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Surface Stanton Number
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Temperature
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Thermal Conductivity
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Total Energy
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Total Enthalpy
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Total Enthalpy Deviation
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Total Pressure
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Total Temperature
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Total Temperature In Stn Frame
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Turbulence Eddy Dissipation
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Turbulence Eddy Frequency
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Turbulence Intensity
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Turbulence Kinetic Energy
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Turbulent Reynolds Number
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity Angle
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity Axial
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity Radial
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity u
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity u.Gradient X
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity u.Gradient Y
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity u.Gradient Z
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity v
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity v.Gradient X
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity v.Gradient Y
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity v.Gradient Z
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity w
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity w.Gradient X
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity w.Gradient Y
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity w.Gradient Z
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Absolute Helicity
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Curl X
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Curl Y
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Curl Z
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Divergence
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Helicity
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Invariant Q
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Lambda 2
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Normal Eigen Helicity
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Real Eigen Helicity
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Real Eigenvalue
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Stretched Swirling Strength
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Swirling Discriminant
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Swirling Normal X
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Swirling Normal Y
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Swirling Normal Z
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Swirling Strength
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Swirling Vector X
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Swirling Vector Y
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Velocity.Swirling Vector Z
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Volume
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Vorticity
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Wall Adjacent Heat Transfer Coefficient
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Wall Adjacent Temperature
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Wall Heat Flux
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Wall Heat Transfer Coefficient
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Wall Shear X
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Wall Shear Y
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Wall Shear Z
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Wall Temperature
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Wall Temperature Thin
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:X
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Y
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Yplus
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Yplus Based Heat Tran. Coef.
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Yplus Based Heat Tran. Ref. Temperature
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Ystar
+  Boundary Values = Conservative
+END
+SCALAR VARIABLE:Z
+  Boundary Values = Conservative
+END
+SYMBOL CONTROL:
+  Symbol Size = 1
+END
+SYSTEM COLOUR MAP:Aero
+  Colour Map Colours = 0.000000,0.160784,0.239216,0.600000,1.000000,0.050000,\
+0.250980,0.360784,0.678431,1.000000,0.100000,0.266667,0.560784,0.800000,1.000000,\
+0.150000,0.333333,0.776471,0.941176,1.000000,0.200000,0.407843,0.760784,0.690196,\
+1.000000,0.250000,0.411765,0.768627,0.435294,1.000000,0.300000,0.415686,0.741176,\
+0.270588,1.000000,0.350000,0.466667,0.733333,0.290196,1.000000,0.400000,0.505882,\
+0.764706,0.254902,1.000000,0.450000,0.713725,0.827451,0.239216,1.000000,0.500000,\
+0.929412,0.909804,0.105882,1.000000,0.550000,0.968627,0.772549,0.062745,1.000000,\
+0.600000,0.917647,0.419608,0.176471,1.000000,0.650000,0.937255,0.164706,0.145098,\
+1.000000,0.700000,0.929412,0.117647,0.180392,1.000000,0.750000,0.945098,0.074510,\
+0.466667,1.000000,0.800000,0.894118,0.203922,0.588235,1.000000,0.850000,0.709804,\
+0.341176,0.627451,1.000000,0.900000,0.756863,0.427451,0.674510,1.000000,0.950000,\
+0.913725,0.721569,0.839216,1.000000,1.000000,1.000000,1.000000,1.000000,\
+1.000000
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:BGR Modern
+  Colour Map Colours = 0,0.192,0.075,0.243,1,0.05,0.243,0.22,0.569,1,0.1,0.271,\
+0.353,0.804,1,0.15,0.275,0.486,0.953,1,0.2,0.235,0.616,0.996,1,0.25,0.157,0.737,\
+0.918,1,0.3,0.094,0.843,0.796,1,0.35,0.129,0.922,0.671,1,0.4,0.278,0.973,0.514,1,\
+0.45,0.475,0.996,0.349,1,0.5,0.635,0.992,0.239,1,0.55,0.776,0.941,0.204,1,0.6,\
+0.878,0.867,0.216,1,0.65,0.965,0.761,0.227,1,0.7,0.996,0.647,0.192,1,0.75,0.984,\
+0.502,0.133,1,0.8,0.941,0.353,0.067,1,0.85,0.871,0.243,0.031,1,0.9,0.765,0.141,\
+0.012,1,0.95,0.631,0.071,0.004,1,1,0.482,0.016,0.012,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:BGR Modern Highlights
+  Colour Map Colours = 0.0,0.192,0.075,0.243,1.0,0.045,0.243,0.22,0.569,1.0,\
+0.09,0.271,0.353,0.804,1.0,0.1,0.312,0.406,0.925,1.0,0.11,0.312,0.406,0.925,1.0,\
+0.12,0.271,0.353,0.804,1.0,0.155,0.275,0.486,0.953,1.0,0.19,0.235,0.616,0.996,\
+1.0,0.2,0.259,0.678,1,1.0,0.21,0.259,0.678,1,1.0,0.22,0.235,0.616,0.996,1.0,\
+0.255,0.157,0.737,0.918,1.0,0.29,0.094,0.843,0.796,1.0,0.3,0.101,0.902,0.852,1.0,\
+0.31,0.101,0.902,0.852,1.0,0.32,0.094,0.843,0.796,1.0,0.355,0.129,0.922,0.671,\
+1.0,0.39,0.278,0.973,0.514,1.0,0.4,0.6,1,0.6,1.0,0.41,0.6,1,0.6,1.0,0.42,0.278,\
+0.973,0.514,1.0,0.455,0.475,0.996,0.349,1.0,0.49,0.635,0.992,0.239,1.0,0.5,0.794,\
+1,0.299,1.0,0.51,0.794,1,0.299,1.0,0.52,0.635,0.992,0.239,1.0,0.555,0.776,0.941,\
+0.204,1.0,0.59,0.878,0.867,0.216,1.0,0.6,0.931,0.919,0.229,1.0,0.61,0.931,0.919,\
+0.229,1.0,0.62,0.878,0.867,0.216,1.0,0.655,0.965,0.761,0.227,1.0,0.69,0.996,\
+0.647,0.192,1.0,0.7,1,0.744,0.221,1.0,0.71,1,0.744,0.221,1.0,0.72,0.996,0.647,\
+0.192,1.0,0.755,0.984,0.502,0.133,1.0,0.79,0.941,0.353,0.067,1.0,0.8,1,0.441,\
+0.084,1.0,0.81,1,0.441,0.084,1.0,0.82,0.941,0.353,0.067,1.0,0.855,0.871,0.243,\
+0.031,1.0,0.89,0.765,0.141,0.012,1.0,0.9,0.956,0.176,0.015,1.0,0.91,0.956,0.176,\
+0.015,1.0,0.92,0.765,0.141,0.012,1.0,0.955,0.631,0.071,0.004,1.0,1,0.482,0.016,\
+0.012,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Blue to White
+  Colour Map Colours = 0, 0, 0, 1, 1, 1, 1, 1, 1, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Cyan Yellow
+  Colour Map Colours = 0,0,1,1,1,0.125,0,0.5,1,1,0.25,0,0,1,1,0.375,0.5,0,1,1,\
+0.5,1,0,1,1,0.625,1,0,0.5,1,0.75,1,0,0,1,0.875,1,0.5,0,1,1,1,1,0,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Divergent Blue Yellow Red
+  Colour Map Colours = 0,0.137,0.137,1,1.0,0.05,0.137,0.271,1,1.0,0.1,0.137,\
+0.404,1,1.0,0.15,0.137,0.537,1,1.0,0.2,0.137,0.671,1,1.0,0.25,0.137,0.804,1,1.0,\
+0.3,0.137,0.941,1,1.0,0.35,0.255,1,0.902,1.0,0.4,0.478,1,0.824,1.0,0.45,0.741,1,\
+0.663,1.0,0.5,1,1,0.502,1.0,0.55,1,1,0,1.0,0.6,0.973,0.91,0,1.0,0.65,0.941,0.824,\
+0,1.0,0.7,0.918,0.733,0,1.0,0.75,0.894,0.612,0,1.0,0.8,0.871,0.49,0,1.0,0.85,\
+0.847,0.369,0,1.0,0.9,0.824,0.247,0,1.0,0.95,0.792,0.133,0,1.0,1,0.749,0.02,0,\
+1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Divergent Cool to Warm
+  Colour Map Colours = 0.000000,0.231373,0.298039,0.752941,1.000000, 0.031250,\
+0.266667,0.352941,0.800000,1.000000, 0.062500,0.301961,0.407843,0.843137,\
+1.000000, 0.093750,0.341176,0.458824,0.882353,1.000000, 0.125000,0.384314,\
+0.509804,0.917647,1.000000, 0.156250,0.423529,0.556863,0.945098,1.000000, \
+0.187500,0.466667,0.603922,0.968627,1.000000, 0.218750,0.509804,0.647059,\
+0.984314,1.000000, 0.250000,0.552941,0.690196,0.996078,1.000000, 0.281250,\
+0.596078,0.725490,1.000000,1.000000, 0.312500,0.639216,0.760784,1.000000,\
+1.000000, 0.343750,0.682353,0.788235,0.992157,1.000000, 0.375000,0.721569,\
+0.815686,0.976471,1.000000, 0.406250,0.760784,0.835294,0.956863,1.000000, \
+0.437500,0.800000,0.850980,0.933333,1.000000, 0.468750,0.835294,0.858824,\
+0.901961,1.000000, 0.500000,0.866667,0.866667,0.866667,1.000000, 0.531250,\
+0.898039,0.847059,0.819608,1.000000, 0.562500,0.925490,0.827451,0.772549,\
+1.000000, 0.593750,0.945098,0.800000,0.725490,1.000000, 0.625000,0.960784,\
+0.768627,0.678431,1.000000, 0.656250,0.968627,0.733333,0.627451,1.000000, \
+0.687500,0.968627,0.694118,0.580392,1.000000, 0.718750,0.968627,0.650980,\
+0.529412,1.000000, 0.750000,0.956863,0.603922,0.482353,1.000000, 0.781250,\
+0.945098,0.552941,0.435294,1.000000, 0.812500,0.925490,0.498039,0.388235,\
+1.000000, 0.843750,0.898039,0.439216,0.345098,1.000000, 0.875000,0.870588,\
+0.376471,0.301961,1.000000, 0.906250,0.835294,0.313725,0.258824,1.000000, \
+0.937500,0.796078,0.243137,0.219608,1.000000, 0.968750,0.752941,0.156863,\
+0.184314,1.000000, 1.000000,0.705882,0.015686,0.149020,1.000000
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Divergent Warm to Cool
+  Colour Map Colours = 0,0.706,0.016,0.149,1.0000,0.03125,0.753,0.157,0.184,\
+1.0000,0.0625,0.796,0.243,0.22,1.0000,0.09375,0.835,0.314,0.259,1.0000,0.125,\
+0.871,0.376,0.302,1.0000,0.15625,0.898,0.439,0.345,1.0000,0.1875,0.925,0.498,\
+0.388,1.0000,0.21875,0.945,0.553,0.435,1.0000,0.25,0.957,0.604,0.482,1.0000,\
+0.28125,0.969,0.651,0.529,1.0000,0.3125,0.969,0.694,0.58,1.0000,0.34375,0.969,\
+0.733,0.627,1.0000,0.375,0.961,0.769,0.678,1.0000,0.40625,0.945,0.8,0.725,1.0000,\
+0.4375,0.925,0.827,0.773,1.0000,0.46875,0.898,0.847,0.82,1.0000,0.5,0.867,0.867,\
+0.867,1.0000,0.53125,0.835,0.859,0.902,1.0000,0.5625,0.8,0.851,0.933,1.0000,\
+0.59375,0.761,0.835,0.957,1.0000,0.625,0.722,0.816,0.976,1.0000,0.65625,0.682,\
+0.788,0.992,1.0000,0.6875,0.639,0.761,1,1.0000,0.71875,0.596,0.725,1,1.0000,0.75,\
+0.553,0.69,0.996,1.0000,0.78125,0.51,0.647,0.984,1.0000,0.8125,0.467,0.604,0.969,\
+1.0000,0.84375,0.424,0.557,0.945,1.0000,0.875,0.384,0.51,0.918,1.0000,0.90625,\
+0.341,0.459,0.882,1.0000,0.9375,0.302,0.408,0.843,1.0000,0.96875,0.267,0.353,0.8,\
+1.0000,1,0.231,0.298,0.753,1.0000
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:FLUENT Rainbow
+  Colour Map Colours = 0, 0, 0, 1, 1, 0.278, 0, 1, 1, 1, 0.389, 0, 1, 0.5, 1, \
+0.444, 0, 1, 0, 1, 0.667, 1, 1, 0, 1, 1, 1, 0, 0, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Field Granular Particles
+  Colour Map Colours = 0.0,1,1,1,1.0,0.026,1,0.984,0.898,1.0,0.082,1,0.953,\
+0.698,1.0,0.215,1,0.875,0.196,1.0,0.272,1,0.843,0,1.0,0.687,0.6,0.506,0,1.0,1,\
+0.298,0.251,0,1.
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Field Liquid
+  Colour Map Colours = 0.0,1,1,1,1.0,0.064,0.867,1,0.906,1.0,0.304,0.596,0.843,\
+0.761,1.0,0.822,0,0.5,0.5,1.0,1,0,0.3,0.3,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Field Phase Fraction
+  Colour Map Colours = 0.0,0.922,0.941,0.992,1.0,0.136,0.863,0.922,0.988,1.0,\
+0.294,0.745,0.902,0.984,1.0,0.425,0.549,0.882,0.976,1.0,0.529,0.353,0.843,0.965,\
+1.0,0.633,0.216,0.765,0.953,1.0,0.733,0.118,0.667,0.941,1.0,0.828,0.078,0.549,\
+0.863,1.0,0.91,0.039,0.392,0.784,1.0,0.964,0.02,0.196,0.627,1.0,1,0,0,0.392,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Field Pressure
+  Colour Map Colours = 0.000000,0.192157,0.219608,0.584314,1.000000,0.110000,\
+0.278431,0.470588,0.709804,1.000000,0.220000,0.458824,0.682353,0.819608,1.000000,\
+0.330000,0.674510,0.850980,0.913725,1.000000,0.440000,0.878431,0.952941,0.968627,\
+1.000000,0.550000,0.996078,0.996078,0.745098,1.000000,0.650000,0.996078,0.874510,\
+0.560784,1.000000,0.740000,0.988235,0.678431,0.376471,1.000000,0.830000,0.956863,\
+0.427451,0.262745,1.000000,0.920000,0.843137,0.192157,0.152941,1.000000,1.000000,\
+0.650980,0.003922,0.149020,1.000000
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Field Scalars
+  Colour Map Colours = 0.0,0.173,0.165,0.341,1.0,0.2,0.243,0.31,0.608,1.0,0.4,\
+0.29,0.549,0.741,1.0,0.6,0.514,0.773,0.827,1.0,0.8,0.745,0.894,0.906,1.0,1,0.894,\
+0.976,0.98,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Field Species
+  Colour Map Colours = 0.0,0.996,0.988,0.996,1.0,0.5,0.7,0.54,0.694,1.0,1,\
+0.416,0.11,0.404,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Field Temperature
+  Colour Map Colours = 0,0,0,0.7,1,0.05,0,0,0.8,1,0.25,0.71,0.04,0.71,1,0.6,1,\
+0.39,0,1,0.8,1,0.78,0,1,1,1,1,0.7,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Field Velocity
+  Colour Map Colours = 0,0,0,1,1,0.15,0.275,0.486,0.953,1,0.2,0.235,0.616,\
+0.996,1,0.25,0.157,0.737,0.918,1,0.3,0.094,0.843,0.796,1,0.35,0.129,0.922,0.671,\
+1,0.4,0.278,0.973,0.514,1,0.45,0.475,0.996,0.349,1,0.5,0.635,0.992,0.239,1,0.55,\
+0.776,0.941,0.204,1,0.6,0.878,0.867,0.216,1,0.65,0.965,0.761,0.227,1,0.7,0.996,\
+0.647,0.192,1,0.75,0.984,0.502,0.133,1,0.8,0.941,0.353,0.067,1,0.85,0.871,0.243,\
+0.031,1,1,0.784,0,0,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Flame
+  Colour Map Colours = 0,0,0,0,1,0.3,1,0,0,1,0.5,1,0.7,0,1,0.7,1,1,0,1,0.8,1,1,\
+0,1,1,1,1,1,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Flow Features 2 Bright Peaks
+  Colour Map Colours = 0,0.161,0.294,0.859,1.0000,0.05,0.098,0.2,0.675,1.0000,\
+0.1,0,0.098,0.51,1.0000,0.15,0,0.024,0.38,1.0000,0.2,0,0.396,0.608,1.0000,0.25,\
+0.004,0.769,0.851,1.0000,0.3,0.059,0.973,0.925,1.0000,0.35,0,0.788,0.573,1.0000,\
+0.4,0,0.6,0.216,1.0000,0.43,0,0.518,0.059,1.0000,0.5,0.522,0.761,0.129,1.0000,\
+0.57,0.855,0.933,0.184,1.0000,0.6,0.988,0.988,0.212,1.0000,0.65,1,0.671,0.031,\
+1.0000,0.7,1,0.447,0.118,1.0000,0.75,0.859,0.29,0.078,1.0000,0.8,0.639,0.145,\
+0.024,1.0000,0.86,0.412,0,0.008,1.0000,0.9,0.525,0.055,0.075,1.0000,0.95,0.698,\
+0.184,0.196,1.0000,1,0.784,0.267,0.271,1.0000
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Flow Features 3 Bright Peaks
+  Colour Map Colours = 0,0.243,0.18,0.157,1.0000,0.05,0.471,0.243,0.192,1.0000,\
+0.1,0.682,0.404,0.196,1.0000,0.15,0.89,0.749,0.471,1.0000,0.2,0.961,0.961,0.784,\
+1.0000,0.25,0.745,0.765,0.349,1.0000,0.3,0.537,0.553,0.145,1.0000,0.35,0.353,\
+0.416,0.02,1.0000,0.4,0.122,0.231,0.145,1.0000,0.45,0.18,0.416,0.173,1.0000,0.5,\
+0.243,0.604,0.2,1.0000,0.55,0.522,0.804,0.408,1.0000,0.6,0.827,0.933,0.937,\
+1.0000,0.65,0.525,0.824,0.753,1.0000,0.7,0.235,0.651,0.576,1.0000,0.75,0.051,\
+0.431,0.392,1.0000,0.8,0.024,0.294,0.373,1.0000,0.85,0.149,0.145,0.31,1.0000,0.9,\
+0.18,0.282,0.553,1.0000,0.95,0.42,0.639,0.788,1.0000,1,0.773,0.922,1,1.0000
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Flow Features 4 Bright Peaks
+  Colour Map Colours = 0,0.38,0.027,0.024,1.0000,0.05,0.863,0.824,0.824,1.0000,\
+0.1,0.957,0.8,0.341,1.0000,0.15,0.863,0.396,0.063,1.0000,0.2,0.427,0.012,0.024,\
+1.0000,0.23,0.106,0.055,0.039,1.0000,0.28,0.435,0.333,0.255,1.0000,0.34,0.733,\
+0.714,0.592,1.0000,0.37,0.855,0.855,0.502,1.0000,0.48,0.314,0.42,0.18,1.0000,\
+0.51,0.027,0.208,0.278,1.0000,0.55,0.094,0.376,0.42,1.0000,0.6,0.455,0.729,0.71,\
+1.0000,0.66,0.831,0.914,0.965,1.0000,0.7,0.6,0.698,0.784,1.0000,0.77,0.176,0.239,\
+0.322,1.0000,0.8,0.051,0.071,0.192,1.0000,0.85,0.157,0.259,0.431,1.0000,0.9,\
+0.298,0.435,0.592,1.0000,0.95,0.514,0.71,0.788,1.0000,1,0.745,0.878,0.898,\
+1.0000
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Gambit
+  Colour Map Colours = 00,0,0,1,1.0000,0.02,0,0,1,1.0000,0.5,1,0,1,1.0000,0.9,\
+1,0,0.22,1.0000,1,1,0,0,1.0000
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Greyscale
+  Colour Map Colours = 0, 0.01, 0.01, 0.01, 1, 1, 0.99, 0.99, 0.99, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Inverse Greyscale
+  Colour Map Colours = 0, 0.99, 0.99, 0.99, 1, 1, 0.01, 0.01, 0.01, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Inverse Rainbow
+  Colour Map Colours = 0, 1, 0, 0, 1, 0.10, 1, 0.5, 0, 1, 0.25, 1, 1, 0, 1, \
+0.43, 0.5, 1, 0, 1, 0.50, 0, 1, 0, 1, 0.56, 0, 1, 0.5, 1, 0.75, 0, 1, 1, 1, 0.90,\
+ 0, 0.5, 1, 1, 1, 0, 0, 1, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Inverse Rainbow 6
+  Colour Map Colours = 0, 1, 0, 1, 1, 0.1, 1, 0, 0.5, 1, 0.2, 1, 0, 0, 1, 0.28,\
+ 1, 0.5, 0, 1, 0.4, 1, 1, 0, 1, 0.55, 0.5, 1, 0, 1, 0.6, 0, 1, 0, 1, 0.65, 0, 1, \
+0.5, 1, 0.8, 0, 1, 1, 1, 0.92, 0, 0.5, 1, 1, 1, 0, 0, 1, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Minimal Map
+  Colour Map Colours = 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Purple Magenta
+  Colour Map Colours = 0.0,0.5,0.1,1,1.0,0.111,0.2,0.2,1,1.0,0.222,0.1,0.5,1,\
+1.0,0.333,0,1,1,1.0,0.444,0.2,1,0.2,1.0,0.556,1,1,0,1.0,0.667,1,0.5,0.1,1.0,\
+0.778,1,0.2,0.2,1.0,0.889,1,0.1,0.5,1.0,1,1,0,1,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:RGB Modern
+  Colour Map Colours = 0.0,0.482,0.016,0.012,1.0,0.05,0.631,0.071,0.004,1.0,\
+0.1,0.765,0.141,0.012,1.0,0.15,0.871,0.243,0.031,1.0,0.2,0.941,0.353,0.067,1.0,\
+0.25,0.984,0.502,0.133,1.0,0.3,0.996,0.647,0.192,1.0,0.35,0.965,0.761,0.227,1.0,\
+0.4,0.878,0.867,0.216,1.0,0.45,0.776,0.941,0.204,1.0,0.5,0.635,0.992,0.239,1.0,\
+0.55,0.475,0.996,0.349,1.0,0.6,0.278,0.973,0.514,1.0,0.65,0.129,0.922,0.671,1.0,\
+0.7,0.094,0.843,0.796,1.0,0.75,0.157,0.737,0.918,1.0,0.8,0.235,0.616,0.996,1.0,\
+0.85,0.275,0.486,0.953,1.0,0.9,0.271,0.353,0.804,1.0,0.95,0.243,0.22,0.569,1.0,1,\
+0.192,0.075,0.243,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Rainbow
+  Colour Map Colours = 0, 0, 0, 1, 1, 0.10, 0, 0.5, 1, 1, 0.25, 0, 1, 1, 1, \
+0.44, 0, 1, 0.5, 1, 0.50, 0, 1, 0, 1, 0.57, 0.5, 1, 0, 1, 0.75, 1, 1, 0, 1, 0.90,\
+ 1, 0.5, 0, 1, 1, 1, 0, 0, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Rainbow 6
+  Colour Map Colours = 0, 0, 0, 1, 1, 0.08, 0, 0.5, 1, 1, 0.2, 0, 1, 1, 1, \
+0.35, 0, 1, 0.5, 1, 0.4, 0, 1, 0, 1, 0.45, 0.5, 1, 0, 1, 0.6, 1, 1, 0, 1, 0.72, \
+1, 0.5, 0, 1, 0.8, 1, 0, 0, 1, 0.9, 1, 0, 0.5, 1, 1, 1, 0, 1, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Sequential Black Body
+  Colour Map Colours = 0.0,0.0000,0.0000,0.0000,1.0,0.1429,0.2517,0.0884,\
+0.0696,1.0,0.2857,0.4932,0.1213,0.1088,1.0,0.4286,0.7217,0.1969,0.1283,1.0,\
+0.5714,0.8572,0.3966,0.0397,1.0,0.7143,0.8939,0.6315,0.0131,1.0,0.8571,0.9137,\
+0.8456,0.2228,1.0,1,0.9932,0.9639,0.8356,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Sequential Cividis
+  Colour Map Colours = 0.0,0,0.133,0.302,1.0,0.1,0.039,0.2,0.439,1.0,0.2,0.208,\
+0.271,0.424,1.0,0.3,0.31,0.341,0.424,1.0,0.4,0.4,0.412,0.439,1.0,0.5,0.486,0.482,\
+0.471,1.0,0.6,0.58,0.557,0.467,1.0,0.7,0.678,0.635,0.443,1.0,0.8,0.784,0.718,\
+0.396,1.0,0.9,0.894,0.808,0.318,1.0,1,0.992,0.906,0.216,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Sequential Inferno
+  Colour Map Colours = 0.0,0.0028,0.0002,0.0140,1.0,0.1429,0.1889,0.0256,\
+0.3301,1.0,0.2857,0.4117,0.0598,0.4352,1.0,0.4286,0.6215,0.1559,0.3903,1.0,\
+0.5714,0.8169,0.2811,0.2612,1.0,0.7143,0.9387,0.4921,0.0813,1.0,0.8571,0.9494,\
+0.7608,0.1366,1.0,1,0.9594,1.00,0.6406,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Sequential Plasma
+  Colour Map Colours = 0.0,0.1850,0.0000,0.5301,1.0,0.1429,0.3846,0.0000,\
+0.6429,1.0,0.2857,0.5721,0.0000,0.6502,1.0,0.4286,0.7278,0.1826,0.5407,1.0,\
+0.5714,0.8477,0.3569,0.4100,1.0,0.7143,0.9345,0.5358,0.2844,1.0,0.8571,0.9633,\
+0.7430,0.1544,1.0,1,0.8941,0.9823,0.0811,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Sequential Viridis
+  Colour Map Colours = 0,0.2824,0.0000,0.3310,1,0.1429,0.3109,0.1867,0.4990,1,\
+0.2857,0.2634,0.3549,0.5528,1,0.4286,0.2030,0.4973,0.5578,1,0.5714,0.1318,0.6341,\
+0.5292,1,0.7143,0.2409,0.7633,0.4222,1,0.8571,0.5758,0.8600,0.2073,1,1,0.9530,\
+0.9125,0.1109,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Split BGR Modern White
+  Colour Map Colours = 0,0.192,0.075,0.243,1,0.05,0.243,0.22,0.569,1,0.1,0.271,\
+0.353,0.804,1,0.15,0.275,0.486,0.953,1,0.2,0.235,0.616,0.996,1,0.25,0.157,0.737,\
+1,1,0.3,0.094,0.843,1,1,0.35,0.129,0.922,1,1,0.42,0.647,1,1,1,0.45,1,1,1,1,0.5,1,\
+1,1,1,0.56,1,1,1,1,0.58,1,0.961,0.251,1,0.65,1,0.761,0.227,1,0.7,0.996,0.647,\
+0.192,1,0.75,0.984,0.502,0.133,1,0.8,0.941,0.353,0.067,1,0.85,0.871,0.243,0.031,\
+1,0.9,0.765,0.141,0.012,1,0.95,0.631,0.071,0.004,1,1,0.482,0.016,0.012,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Split Blue Gray Red
+  Colour Map Colours = 0.0,0,0,1,1.0,0.25,0,0.8,1,1.0,0.344,0.95,0.95,1,1.0,\
+0.35,0.2,0.2,0.2,1.0,0.644,0.9,0.9,0.9,1.0,0.65,0.314,0,0,1.0,0.75,1,0,0,1.0,1,1,\
+0.9,0.95,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Stacked Blue Green Red
+  Colour Map Colours = 0,0,0,1,1,0.25,0,0.8,1,1,0.3499,0.95,0.95,1,1,0.35,0.1,\
+0.1,0.1,1,0.48,0.6,0.6,0.6,1,0.490,0,1,0,1,0.500,0,1,0,1,0.510,0.5,0.5,0.5,1,\
+0.6499,1,1,1,1,0.65,0.314,0,0,1,0.75,1,0,0,1,1,1,0.9,0.95,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Transparency
+  Colour Map Colours = 0, 1, 1, 1, 0, 1, 1, 1, 1, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Transparency Black Long
+  Colour Map Colours = 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Transparency Black Medium
+  Colour Map Colours = 0.00, 0, 0, 0, 0, 0.50, 0, 0, 0, 0, 1.00, 0, 0, 0, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Transparency Black Short
+  Colour Map Colours = 0.00, 0, 0, 0, 0, 0.95, 0, 0, 0, 0, 1.00, 0, 0, 0, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Transparency Gray White Long
+  Colour Map Colours = 0, 0.5, 0.5, 0.5, 0, 1, 1.0, 1.0, 1.0, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Transparency Gray White Medium
+  Colour Map Colours = 0.00, 0.0, 0.0, 0.0, 0, 0.50, 0.5, 0.5, 0.5, 0, 1.00, \
+1.0, 1.0, 1.0, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Transparency Gray White Short
+  Colour Map Colours = 0.00, 0.0, 0.0, 0.0, 0, 0.90, 0.5, 0.5, 0.5, 0, 1.00, \
+1.0, 1.0, 1.0, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Transparency White Long
+  Colour Map Colours = 0, 1, 1, 1, 0, 1, 1, 1, 1, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Transparency White Medium
+  Colour Map Colours = 0.00, 1, 1, 1, 0, 0.50, 1, 1, 1, 0, 1.00, 1, 1, 1, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Transparency White Short
+  Colour Map Colours = 0.00, 1, 1, 1, 0, 0.95, 1, 1, 1, 0, 1.00, 1, 1, 1, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Values High and Low
+  Colour Map Colours = 0.0,0.863,1,1,1.0,0.01,0.863,1,1,1.0,0.05,0,1,1,1.0,0.1,\
+0,0.502,1,1.0,0.15,0,0,1,1.0,0.2,0,0,0.392,1.0,0.21,0.227,0.184,0.18,1.0,0.5,\
+0.506,0.478,0.427,1.0,0.8,1,0.937,0.886,1.0,0.81,0.614,0.092,0.09,1.0,0.85,1,0,0,\
+1.0,0.9,1,0.502,0,1.0,0.95,1,0.863,0,1.0,1,1,1,0.749,1.0
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:White to Blue
+  Colour Map Colours = 0, 1, 1, 1, 1, 1, 0, 0, 1, 1
+  Colour Map Divisions = 2
+  Colour Map Storage Type = System
+  Colour Map Type = Gradient
+END
+SYSTEM COLOUR MAP:Zebra
+  Colour Map Colours = 0, 1, 1, 1, 1, 1.0, 0, 0, 0, 1
+  Colour Map Divisions = 5
+  Colour Map Storage Type = System
+  Colour Map Type = Zebra
+END
+TITLE PAGE:
+  Include ANSYS Logo = true
+  Include Custom Logo = false
+  Include Date = true
+  Include TOC = true
+  Show Captions in TOC = true
+  Title Page Exists = true
+END
+UNIT SYSTEM:
+  Preferred Units System = SI
+  Update Units to Preferred = Off
+END
+USER SCALAR VARIABLE:Density.Gradient X
+  Boundary Values = Conservative
+  Calculate Global Range = Off
+  Component Index = 1
+  Recipe = Vector Component
+  Variable = Density.Gradient
+END
+USER SCALAR VARIABLE:Density.Gradient Y
+  Boundary Values = Conservative
+  Calculate Global Range = Off
+  Component Index = 2
+  Recipe = Vector Component
+  Variable = Density.Gradient
+END
+USER SCALAR VARIABLE:Density.Gradient Z
+  Boundary Values = Conservative
+  Calculate Global Range = Off
+  Component Index = 3
+  Recipe = Vector Component
+  Variable = Density.Gradient
+END
+USER VECTOR VARIABLE:Density.Gradient
+  Boundary Values = Conservative
+  Calculate Global Range = Off
+  Recipe = Gradient
+  Variable to Copy = Pressure
+  Variable to Gradient = Density
+END
+VECTOR VARIABLE:Force
+  Boundary Values = Conservative
+END
+VECTOR VARIABLE:Normal
+  Boundary Values = Conservative
+END
+VECTOR VARIABLE:Velocity
+  Boundary Values = Conservative
+END
+VECTOR VARIABLE:Velocity u.Gradient
+  Boundary Values = Conservative
+END
+VECTOR VARIABLE:Velocity v.Gradient
+  Boundary Values = Conservative
+END
+VECTOR VARIABLE:Velocity w.Gradient
+  Boundary Values = Conservative
+END
+VECTOR VARIABLE:Velocity.Curl
+  Boundary Values = Conservative
+END
+VECTOR VARIABLE:Velocity.Swirling Normal
+  Boundary Values = Conservative
+END
+VECTOR VARIABLE:Velocity.Swirling Vector
+  Boundary Values = Conservative
+END
+VECTOR VARIABLE:Wall Shear
+  Boundary Values = Conservative
+END
+VIEW:View 1
+  Angular Coord Shift = 0.0
+  Auto Center = false
+  Axis Visibility = On
+  Border Visibility = false
+  Camera Mode = User Specified
+  Clip Scene = false
+  Coord Transform = Cartesian
+  Hide Difference Case = false
+  Highlight Type = Surface Mesh
+  Is A Figure = false
+  Light Angle = 50, 110
+  Object Visibility List = /CONTOUR:TKE 1,/CONTOUR:TKE 2,/DATA READER/\
+CASE:Case CFD_Data/BOUNDARY:left_reactor_wall,/DATA READER/CASE:Case CFD_Data/\
+BOUNDARY:nozzle_wall,/DATA READER/CASE:Case CFD_Data/BOUNDARY:reservoir_wall,/\
+DATA READER/CASE:Case CFD_Data/BOUNDARY:right_reactor_wall,/DATA READER/\
+CASE:Case CFD_Data/BOUNDARY:top_reactor_wall,/LEGEND:TKE Legend
+  Projection = Orthographic
+  Ruler Visibility = Off
+  Standard View = Isometric Y
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pan = -0.0497193,0.00472194
+    Pivot Point = 0.0452974,0.0255267,0.00165892
+    Rotation = -90, 0, 0
+    Rotation Quaternion = 0,0,-0.0370823,0.999313
+    Scale = 8.50109
+    Send To Viewer = True
+  END
+END
+VIEW:View 2
+  Angular Coord Shift = 0.0
+  Auto Center = false
+  Axis Visibility = On
+  Border Visibility = false
+  Camera Mode = User Specified
+  Clip Scene = false
+  Coord Transform = Cartesian
+  Hide Difference Case = false
+  Highlight Type = Surface Mesh
+  Is A Figure = false
+  Light Angle = 50, 110
+  Object Visibility List = /DEFAULT LEGEND:Default Legend View 2,/\
+WIREFRAME:Wireframe
+  Projection = Orthographic
+  Ruler Visibility = Off
+  Standard View = Isometric Y
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pan = 0,0
+    Pivot Point = 0,0,0
+    Rotation = -90, 0, 0
+    Rotation Quaternion = 0.279848,-0.364705,-0.115917,0.880476
+    Scale = 1
+    Send To Viewer = True
+  END
+END
+VIEW:View 3
+  Angular Coord Shift = 0.0
+  Auto Center = false
+  Axis Visibility = On
+  Border Visibility = false
+  Camera Mode = User Specified
+  Clip Scene = false
+  Coord Transform = Cartesian
+  Hide Difference Case = false
+  Highlight Type = Surface Mesh
+  Is A Figure = false
+  Light Angle = 50, 110
+  Object Visibility List = /DEFAULT LEGEND:Default Legend View 3,/\
+WIREFRAME:Wireframe
+  Projection = Orthographic
+  Ruler Visibility = Off
+  Standard View = Isometric Y
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pan = 0,0
+    Pivot Point = 0,0,0
+    Rotation = -90, 0, 0
+    Rotation Quaternion = 0.279848,-0.364705,-0.115917,0.880476
+    Scale = 1
+    Send To Viewer = True
+  END
+END
+VIEW:View 4
+  Angular Coord Shift = 0.0
+  Auto Center = false
+  Axis Visibility = On
+  Border Visibility = false
+  Camera Mode = User Specified
+  Clip Scene = false
+  Coord Transform = Cartesian
+  Hide Difference Case = false
+  Highlight Type = Surface Mesh
+  Is A Figure = false
+  Light Angle = 50, 110
+  Object Visibility List = /DEFAULT LEGEND:Default Legend View 4,/\
+WIREFRAME:Wireframe
+  Projection = Orthographic
+  Ruler Visibility = Off
+  Standard View = Isometric Y
+  CAMERA:
+    Option = Pivot Point and Quaternion
+    Pan = 0,0
+    Pivot Point = 0,0,0
+    Rotation = -90, 0, 0
+    Rotation Quaternion = 0.279848,-0.364705,-0.115917,0.880476
+    Scale = 1
+    Send To Viewer = True
+  END
+END
+VIEWPORT MANAGER:
+  Background Colour = 1, 1, 1
+  Background Colour 2 = 1, 1, 1
+  Background Colour Type = Solid
+  Background Image = Mountains
+  Background Image Mapping = Flat
+  Background Image Type = Predefined
+  Background Type = Colour
+  Global Edge Colour = 1, 1, 1
+  Global Text Colour = 1, 1, 1
+  Maximized Viewport = -1
+  Synchronize Camera = false
+  Synchronize Visibility = true
+  View Length Units = m
+  Viewport 1 View = View 1
+  Viewport 2 View = View 2
+  Viewport 3 View = View 3
+  Viewport 4 View = View 4
+  Viewport Layout = No Split
+  X Split = 0.5
+  Y Split = 0.5
+END
+WIREFRAME:Wireframe
+  Apply Instancing Transform = On
+  Colour = 0, 0, 0
+  Domain List = All Domains
+  Draw Contours = Off
+  Edge Angle = 30 [degree]
+  Instancing Transform = Default Transform
+  Line Colour Mode = Default
+  Line Width = 1
+  Number of Contours = 11
+  Show Surface Mesh = Off
+  Visibility = Off
+END

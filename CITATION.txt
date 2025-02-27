@@ -1,0 +1,9 @@
+If this work is used in any study, please cite:
+
+Driver, L.; Douglas, K. M.; Lucas, D. I.; Guillaume, T.; Lehman, J. H.; Kapur, N.; Heard, D. E.; de
+Boer, G. N. Developing a Predictive Model for Low Temperature Laval Nozzles with Application in
+Chemical Kinetics. Physics of Fluids [Submitted 2024].
+
+This is currently in preparation for submission, so will be updated with a bibtex entry once this has been published.
+
+

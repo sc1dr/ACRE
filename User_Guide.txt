@@ -1,0 +1,70 @@
+A-CRE Automated Characterisation for Reaction Kinetics (CRESU) at Leeds
+ User Guide V1.0
+Author: Luke Driver (scldr@leeds.ac.uk)
+
+
+To use the A-CRE framework, you need to have access to the following software, note that you will not be able to use older versions of these as they are not backwards compatible!
+•	Ansys R2022 R1 or later (access to ICEM and Fluent)
+•	MATLAB 2022 or later
+
+You can use a newer version of Ansys, although you will need to alter some of the code to do this, email myself if you need help with this.
+These softwares should be available on your university HPC, make sure your HPC has the correct license for these too, as you may require a parallel license.
+
+First time users:
+
+Before you continue, you need to change the following lines in the code to make sure it works with your HPC:
+
+Lines 217,221,225,254,257 and 260 in the "blackbox_cfd.m" have the following code:
+
+ScriptChanger(ICEM_Script_File, 256, ['ic_exec /apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd/icemcfd/output-interfaces/fluent6 -dom $script_dir/Meshing/project1.uns -b project1.fbc -dim2d $script_dir/' Solution_Folder '/Mesh']);
+
+The string '/apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd/icemcfd/output-interfaces/fluent6' relates the location of fluent6 on your HPC.
+Therefore you need to find this directory on your HPC and replace the existing directory string that is currently used.
+
+For example on BEAR the directory for Ansys 2023R1 is /rds/bear-apps/2022a/EL8-has/software/ANSYS/2023R1/v231/icemcfd/linux64_amd/icemcfd/output-interfaces/fluent6
+
+To use the MATLAB Automation software:
+
+1) Input your nozzle geometry profile using XY coordinates into the nozzle_profile.txt file, ensure your coordinates are in 2 columns (x and y). Do not worry about XY position of your nozzle as the 
+"Nozzle_Formatter.m" will set the coordinates to the right location and format the .txt file to be used in the geometry procedure. Note this script will generate a file
+named "NozzleProfileFormatted.txt".
+
+2) Open up the Parametric_Study.m file 
+• Number of CPU cores to use (This needs to be the same as your HPC submission file or it will fail)
+• Solution Folder - Make this suitable name as all the data from a particular run will be saved in this Folder
+• Change the Reactor Length, Reactor Radius, Reservoir Length, Reservoir Radius and Inlet Sizes that correspond to your chamber.
+• Change the value of Contour to either 0 or 1 depending if you want contour data, note that enabling this feature will take longer. 
+
+To have multiple CFD runs, you need to find the lines:
+
+This is where you set multiple file names, ensure the name is within two ' ' and there is  comma between them, dont remove the curly brackets.
+Solution_Folder = {'Run1', 'Run2', 'Run3', 'Run4', 'Run5', 'Run6'}; 
+
+To change the chamber (Pin) and reservoir (Pout) pressure you need to change:
+
+Pin = [4900 4950 5000 5050 5100 5150]; % Inlet Pressure BC (Pa) 133.33 Pa = 1 torr - Reservoir Pressure
+Pout = [170 170 170 170 170 170]; % Outlet Pressure BC (Pa) - Vaccum/Chamber Pressure
+
+Each number needs to be separated by a space, dont remove the square brackets
+YOU NEED TO MAKE SURE THAT the nubmer of pressure and folders name you are the same. 
+if you have 4 pressure conditions you need 4 folder names. Please set these to suitable names.
+
+
+3) Save the changes you made in the Parametric_Study.m script and close the doccument.
+
+2) Run the Parametric_Study.m file on the HPC, this can be in batch using the following:
+
+matlab -nodisplay -batch Nozzle_Formatter > MATLAB_Output.txt
+
+An example shell script that can be used to submit to the HPC can be seen in ACRE_ACR4_run.sh or ACRE_BEAR_run.sh
+
+Note that you will only need to run the script based on how many inputs you have, a good estimate is 30-45 minutes per run just incase. 
+
+Once the HPC job has finished, it will output the necessary data files in the Solution folder you named. There will be 1D axial profiles and 2D contour profiles that can be used in other scripts for
+data comparison. Furthermore, if you want to see contour, you can open up the .cas and .dat file in Fluent and view various parameters using the GUI.
+
+
+
+
+
+

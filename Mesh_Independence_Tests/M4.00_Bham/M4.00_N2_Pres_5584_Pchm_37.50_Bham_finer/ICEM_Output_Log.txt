@@ -1,0 +1,98 @@
+ICEM_ACN is "/apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd".
+ANSYSLIC_DIR is set to /apps/applications/ansys/2023R1/1/default/shared_files/licensing
+LD_LIBRARY_PATH is "/apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd/lib:/apps/applications/matlab/R2022a/1/default/sys/opengl/lib/glnxa64:/apps/applications/matlab/R2022a/1/default/sys/os/glnxa64:/apps/applications/matlab/R2022a/1/default/bin/glnxa64:/apps/applications/matlab/R2022a/1/default/extern/lib/glnxa64:/apps/applications/matlab/R2022a/1/default/cefclient/sys/os/glnxa64:/apps/applications/matlab/R2022a/1/default/runtime/glnxa64:/apps/applications/matlab/R2022a/1/default/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/apps/applications/matlab/R2022a/1/default/sys/java/jre/glnxa64/jre/lib/amd64/server:/apps/developers/libraries/openmpi/3.1.4/1/intel-19.0.4/lib:/apps/developers/compilers/intel/19.0.4/1/default/compilers_and_libraries_2019.4.243/linux/ipp/lib/intel64:/apps/developers/compilers/intel/19.0.4/1/default/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64_lin:/apps/developers/compilers/intel/19.0.4/1/default/compilers_and_libraries_2019.4.243/linux/tbb/lib/intel64/gcc4.7:/apps/developers/compilers/intel/19.0.4/1/default/debugger_2019/libipt/intel64/lib:/apps/developers/compilers/intel/19.0.4/1/default/compilers_and_libraries_2019.4.243/linux/daal/lib/intel64_lin:/apps/developers/compilers/intel/19.0.4/1/default/compilers_and_libraries_2019.4.243/linux/daal/../tbb/lib/intel64_lin/gcc4.4:/services/sge_prod/lib/lx-amd64:/apps/applications/matlab/R2022a/1/default/runtime/glnxa64:/apps/applications/matlab/R2022a/1/default/bin/glnxa64:/apps/applications/matlab/R2022a/1/default/sys/os/glnxa64:/apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd/bin:/apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd/dif/iges:/apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd/../../Framework/bin/Linux64:/apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd/../../tp/IntelCompiler/2019.3.199/linx64/lib/intel64:/apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd/../../tp/qt_fw/5.9.6/Linux64/lib:/apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd/../../tp/hdf5/1_10_5/linx64/lib".
+args =  -batch -script GeoMesh_Macro_Linux_2.tcl
+Checked out ansyslmd feature cfd_preppost (product CFD PrepPost) from server 1055@ansys-research.leeds.ac.uk
+Customer number is 210465
+Solver Ansys Fluent supports unstructured mesh.
+Loading domain "./Meshing/hex.uns" ...
+12 part(s)
+Solver Ansys Fluent supports unstructured mesh.
+Current solver is Ansys Fluent
+Solver Ansys Fluent supports unstructured mesh.
+Loading /apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd/icemcfd/output-interfaces/fluentAnsys.bcinfo
+Saved family boco data to ./Meshing/ansys.fbc
+Saved attribute data to ./Meshing/ansys.atr
+Writing tetin file ./Meshing/project1.tin ...
+Done saving tetin file.
+Writing domain "./Meshing/project1.uns" ...
+Done saving domain file.
+Writing blocking file ./Meshing/project1.blk ...
+Done saving blocking file.
+Saved family boco data to ./Meshing/project1.fbc
+Saved attribute data to ./Meshing/project1.atr
+Report File: ./M4.00_N2_Pres_5584_Pchm_37.50_Bham_finer/mesh_report.html
+Min = 0.992916, max = 1, mean = 0.999896432327
+5358815 elements with the "Quality" diagnostic
+Min = 0.992916, max = 1, mean = 0.999896432327
+5358815 elements with the "Determinant" diagnostic
+Min = 0.0879868, max = 1, mean = 0.475793622284
+5358815 elements with the "Aspect ratio" diagnostic
+Min = 0, max = 90, mean = 89.5214230418
+5372323 elements with the "Min angle" diagnostic
+Min = 0, max = 26.2773, mean = 0.252490403127
+5372323 elements with the "Max ortho" diagnostic
+Min = 0, max = 1.47878e-06, mean = 3.13390180478e-07
+5358815 elements with the "Max warp" diagnostic
+Min = 0, max = 0, mean = 0.0
+5358815 elements with the "Max warpgls" diagnostic
+Min = 0.708847, max = 1, mean = 0.997201806743
+5358815 elements with the "Skew" diagnostic
+Running diagnostics for duplicate in subset "all"
+No  problems  were found for duplicate
+Running diagnostics for multiple in subset "all"
+No  problems  were found for multiple
+Running diagnostics for triangle_box in subset "all"
+No  problems  were found for triangle_box
+Running diagnostics for single_2 in subset "all"
+6  problems  were found for single_2
+Running diagnostics for single_multiple in subset "all"
+No  problems  were found for single_multiple
+Running diagnostics for standalone in subset "all"
+5372323  problems  were found for standalone
+Running diagnostics for single in subset "all"
+13502  problems  were found for single
+Running diagnostics for delaunay in subset "all"
+No  problems  were found for delaunay
+Running diagnostics for overlap in subset "all"
+No  problems  were found for overlap
+Running diagnostics for 3_surface_node_internal_faces in subset "all"
+No  problems  were found for 3_surface_node_internal_faces
+Running diagnostics for uncovered in subset "all"
+No  problem volume elements  were found for uncovered
+Error: no param "verbose" defined for diagnostic "uncovered"
+Running diagnostics for missing_internal in subset "all"
+No  problems  were found for missing_internal
+Running diagnostics for bound_edge in subset "all"
+can't read "uns_current_edge_list": no such variable
+Running diagnostics for nmanvert in subset "all"
+No  problems  were found for nmanvert
+Running diagnostics for disconnected_vert in subset "all"
+0 unconnected vertices were found.
+disconnected_vert is  OK
+Running diagnostics for vol_orient in subset "all"
+No  problems  were found for vol_orient
+Running diagnostics for surf_orient in subset "all"
+	faces are correctly oriented
+surf_orient is  OK
+Running diagnostics for hanging in subset "all"
+No  problems  were found for hanging
+Running diagnostics for penetrating in subset "all"
+No  problems  were found for penetrating
+Running diagnostics for disconnbars in subset "all"
+No  problems  were found for disconnbars
+Wrote mesh report ./M4.00_N2_Pres_5584_Pchm_37.50_Bham_finer/mesh_report.html in HTML format
+RLIMIT_STACK cur ffffffff max ffffffff
+RLIMIT_DATA ffffffff ffffffff
+RLIMIT_RSS ffffffff ffffffff
+x-min: -23 x-max: 977
+y-min: 0 y-max: 198.2
+z-min: 0 z-max: 0
+matching mesh edges faces
+matching mesh at parallel edges
+iteration 0: 0 edges modified
+no such family VORFN in set_fam_bocos
+no such family CRVS in set_fam_bocos
+Part name VORFN appears twice!
+saving model ...
+Exit from ICEM CFD

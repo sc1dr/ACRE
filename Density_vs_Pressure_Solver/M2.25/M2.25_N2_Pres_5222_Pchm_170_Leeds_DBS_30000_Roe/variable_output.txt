@@ -1,0 +1,21 @@
+Double check these conditions are correct:
+
+Number of CPU Cores= 40
+Name of Solution Folder: M2.25_N2_Pres_5222_Pres_170_DBS_30000
+Nozzle Length= 41.62 mm
+Nozzle Radius= 8.68 mm
+
+Inlet Temp= 300.00 K
+Outlet Temp= 300.00 K
+Inlet Pressure= 5222.73 Pa
+Outlet Pressure= 170.65 Pa
+Pressure Ratio (Pin/Pout)= 30.60
+Bath Gas= 0       Nitrogen = 0, Helium - 1, Argon = 2 
+
+Reactor Length= 774.00 mm
+Reactor Radius= 120.00 mm
+Reservoir Length= 10.00 mm
+Reservoir Radius= 5.00 mm
+Outlet Diameter= 150.00 mm
+Outlet Position= 550.00 mm
+

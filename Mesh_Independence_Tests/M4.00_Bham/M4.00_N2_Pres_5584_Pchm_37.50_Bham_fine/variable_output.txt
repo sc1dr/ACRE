@@ -1,0 +1,21 @@
+Double check these conditions are correct:
+
+Number of CPU Cores= 40
+Name of Solution Folder: M4.00_N2_Pres_5584_Pchm_37.50_Bham_fine
+Nozzle Length= 88.10 mm
+Nozzle Radius= 16.54 mm
+
+Inlet Temp= 295.00 K
+Outlet Temp= 295.00 K
+Inlet Pressure= 5584.00 Pa
+Outlet Pressure= 37.50 Pa
+Pressure Ratio (Pin/Pout)= 148.91
+Bath Gas= 0       Nitrogen = 0, Helium - 1, Argon = 2 
+
+Reactor Length= 1000.00 mm
+Reactor Radius= 198.20 mm
+Reservoir Length= 23.00 mm
+Reservoir Radius= 18.50 mm
+Outlet Diameter= 150.00 mm
+Outlet Position= 875.00 mm
+
