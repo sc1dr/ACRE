@@ -240,7 +240,7 @@ function cfd_blackbox(Solution_Folder, CPU_Cores, Ansys_Version, Tin, Tout, Pin,
             ScriptChanger(ICEM_Script_File, 262, ['ic_reports_write_mesh_report All $script_dir/', Solution_Folder, '/mesh_report.html -format HTML -mesher {ICEM CFD 2022 R1} -title {mesh_report mesh report} -user USER -write_quality All -write_quality_all __NONE__ -write_summary All -write_diagnostics All']);
         
         elseif Ansys_Version == 2 % 2023R1
-            ScriptChanger(ICEM_Script_File, 256, ['ic_exec /apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd/icemcfd/output-interfaces/fluent6 -dom $script_dir/Meshing/project1.uns -b $script_dir/Meshing/project1.fbc -dim2d $script_dir/' Solution_Folder '/Mesh']);
+            ScriptChanger(ICEM_Script_File, 256, ['ic_exec /opt/apps/pkg/applications/ansys/2023R2/v232/icemcfd/linux64_amd/icemcfd/output-interfaces/fluent6 -dom $script_dir/Meshing/project1.uns -b $script_dir/Meshing/project1.fbc -dim2d $script_dir/' Solution_Folder '/Mesh']);
             ScriptChanger(ICEM_Script_File, 262, ['ic_reports_write_mesh_report All $script_dir/', Solution_Folder, '/mesh_report.html -format HTML -mesher {ICEM CFD 2023 R1} -title {mesh_report mesh report} -user USER -write_quality All -write_quality_all __NONE__ -write_summary All -write_diagnostics All']);
         end
         
@@ -285,7 +285,7 @@ function cfd_blackbox(Solution_Folder, CPU_Cores, Ansys_Version, Tin, Tout, Pin,
 	        ScriptChanger(ICEM_Script_File, 270, ['ic_exec /apps/applications/ansys/2022R1/1/default/v221/icemcfd/linux64_amd/icemcfd/output-interfaces/fluent6 -dom $script_dir/Meshing/project1.uns -b $script_dir/Meshing/project1.fbc -dim2d $script_dir/' Solution_Folder '/Mesh']);
 	        ScriptChanger(ICEM_Script_File, 275, ['ic_reports_write_mesh_report All $script_dir/', Solution_Folder, '/mesh_report.html -format HTML -mesher {ICEM CFD 2022 R1} -title {mesh_report mesh report} -user USER -write_quality All -write_quality_all __NONE__ -write_summary All -write_diagnostics All']);
         elseif Ansys_Version == 2 % 2023R1
-	        ScriptChanger(ICEM_Script_File, 270, ['ic_exec /apps/applications/ansys/2023R1/1/default/v231/icemcfd/linux64_amd/icemcfd/output-interfaces/fluent6 -dom $script_dir/Meshing/project1.uns -b $script_dir/Meshing/project1.fbc -dim2d $script_dir/' Solution_Folder '/Mesh']);
+	        ScriptChanger(ICEM_Script_File, 270, ['ic_exec /opt/apps/pkg/applications/ansys/2023R2/v232/icemcfd/linux64_amd/icemcfd/output-interfaces/fluent6 -dom $script_dir/Meshing/project1.uns -b $script_dir/Meshing/project1.fbc -dim2d $script_dir/' Solution_Folder '/Mesh']);
 	        ScriptChanger(ICEM_Script_File, 275, ['ic_reports_write_mesh_report All $script_dir/', Solution_Folder, '/mesh_report.html -format HTML -mesher {ICEM CFD 2023 R1} -title {mesh_report mesh report} -user USER -write_quality All -write_quality_all __NONE__ -write_summary All -write_diagnostics All']);
         end
     
@@ -329,9 +329,9 @@ function cfd_blackbox(Solution_Folder, CPU_Cores, Ansys_Version, Tin, Tout, Pin,
     if Contour == 1
         ScriptChanger(FluentScriptFile,72, '(do((i 0 (+ i 1)))');
         ScriptChanger(FluentScriptFile,73, ['    ((>= i ',  num2str(Contour_Line), '))']);
-        ScriptChanger(FluentScriptFile,74,  '    (define a ', num2str(a_in_script),')');
-        ScriptChanger(FluentScriptFile,75,  '    (define b i)');
-        ScriptChanger(FluentScriptFile,76,  '    (define ycoord (/ b a ))')
+        ScriptChanger(FluentScriptFile,74, ['    (define a ', num2str(a_in_script),')']);
+        ScriptChanger(FluentScriptFile,75,  ['    (define b i)']);
+        ScriptChanger(FluentScriptFile,76,  ['    (define ycoord (/ b a ))'])
         ScriptChanger(FluentScriptFile,77, ['    (ti-menu-load-string (format #f "/surface/rake-surface line_~a ', num2str(Nozzle_Length/1000), ' ~a ',num2str(Reactor_Length/1000), ' ~a 1000" ycoord ycoord ycoord))']);
         ScriptChanger(FluentScriptFile,78, ['    (ti-menu-load-string (format #f "/plot plot yes', ' ' , Solution_Folder, '/Contour_Data/axial_pressure_y_~a yes no no total-pressure yes 1 0 line_~a ()" i ycoord))']);
         ScriptChanger(FluentScriptFile,79, ['    (ti-menu-load-string (format #f "/plot plot yes', ' ' , Solution_Folder, '/Contour_Data/axial_mach_y_~a yes no no mach yes 1 0 line_~a ()" i ycoord))']);
@@ -341,9 +341,9 @@ function cfd_blackbox(Solution_Folder, CPU_Cores, Ansys_Version, Tin, Tout, Pin,
     elseif Contour == 0
         ScriptChanger(FluentScriptFile,72, ';(do((i 0 (+ i 1)))');
         ScriptChanger(FluentScriptFile,73, ['    ;((>= i ',  num2str(Contour_Line), '))']);
-        ScriptChanger(FluentScriptFile,74,  '    ;(define a ', num2str(a_in_script),')');
-        ScriptChanger(FluentScriptFile,75,  '    ;(define b i)');
-        ScriptChanger(FluentScriptFile,76,  '    ;(define ycoord (/ b a ))')
+        ScriptChanger(FluentScriptFile,74,  ['    ;(define a ', num2str(a_in_script),')']);
+        ScriptChanger(FluentScriptFile,75,  ['    ;(define b i)']);
+        ScriptChanger(FluentScriptFile,76,  ['    ;(define ycoord (/ b a ))'])
         ScriptChanger(FluentScriptFile,77, ['    ;(ti-menu-load-string (format #f "/surface/rake-surface line_~a ', num2str(Nozzle_Length/1000), ' ~a ',num2str(Reactor_Length/1000), ' ~a 500" ycoord ycoord ycoord))']);
         ScriptChanger(FluentScriptFile,78, ['    ;(ti-menu-load-string (format #f "/plot plot yes', ' ' , Solution_Folder, '/Contour_Data/axial_pressure_y_~a yes no no total-pressure yes 1 0 line_~a ()" i ycoord))']);
         ScriptChanger(FluentScriptFile,79, ['    ;(ti-menu-load-string (format #f "/plot plot yes', ' ' , Solution_Folder, '/Contour_Data/axial_mach_y_~a yes no no mach yes 1 0 line_~a ()" i ycoord))']);
@@ -370,7 +370,7 @@ function cfd_blackbox(Solution_Folder, CPU_Cores, Ansys_Version, Tin, Tout, Pin,
         ScriptChanger(FluentScriptFile, 15, '(ti-menu-load-string (format #f "/define/materials/copy fluid argon"))');
         ScriptChanger(FluentScriptFile, 16, '(ti-menu-load-string (format #f "/define/boundary-conditions/fluid fluid yes argon no no no no no no no"))');
         ScriptChanger(FluentScriptFile, 17, '(ti-menu-load-string (format #f "/define/materials delete air"))');
-        ScriptChanger(FluentScriptFile, 18, '(ti-menu-load-string (format #f "/define/materials change-create argon argon yes ideal-gas yes piecewise-linear 7 0 543.045 103.81 522.53 133.81 521.33 173.81 520.81 243.81 520.53 503.81 520.37 1993.8 520.33 yes polynomial 8 -8.3052e-4 7.8512e-5 -7.0875e-8 6.5431e-11 -4.2832e-14 1.8059e-17 -4.3440e-21 4.5046e-25 yes sutherland three-coefficient-method 2.125e-05 273.11 144.4 no no no"))');
+        ScriptChanger(FluentScriptFile, 18, '(ti-menu-load-string (format #f "/define/materials change-create argon argon yes ideal-gas yes piecewise-linear 7 0 535.045 103.81 522.53 133.81 521.33 173.81 520.81 243.81 520.53 503.81 520.37 1993.8 520.33 yes polynomial 8 -8.3052e-4 7.8512e-5 -7.0875e-8 6.5431e-11 -4.2832e-14 1.8059e-17 -4.3440e-21 4.5046e-25 yes sutherland three-coefficient-method 2.125e-05 273.11 144.4 no no no"))');
         
     end
             
